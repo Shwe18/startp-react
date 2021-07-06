@@ -54,20 +54,20 @@ const NavbarStyleThree = () => {
                                 <li className="nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Home <Icon.ChevronDown />
+                                            Solutions <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
                                     <ul className="dropdown-menu">
                                         <li className="nav-item">
                                             <Link href="/it-startup" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">IT Startup</a>
+                                                <a onClick={toggleNavbar} className="nav-link">IVR Services</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/it-startup-2" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">IT Startup Two</a>
+                                            <Link href="/tollfree" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Tollfree</a>
                                             </Link>
                                         </li>
  

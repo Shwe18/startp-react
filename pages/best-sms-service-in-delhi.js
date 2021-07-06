@@ -10,12 +10,12 @@ import {
     AccordionItemButton
 } from 'react-accessible-accordion';
  
-const MissedCallServiceProviderInIndia = () => {
+const BestSMSServiceInDelhi = () => {
     return (
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Missed Call Service Provider In India" />
+            <PageBanner pageTitle="Best SMS Service In Delhi" />
 
             <div className="features-details-area ptb-80">
                 <div className="container">
@@ -30,8 +30,8 @@ const MissedCallServiceProviderInIndia = () => {
 
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
-                                <p>Your customer can placed a missed call to your given number at zero cost and receive a call back immediately. Missed Call Service is easiest way to give your customer updates, Lead Generation, Free Callback to caller, Customer Engagement / Support / Feedback, Application Download, Opinion Poll, OTP/Mobile Number Verification.
-                                </p>                        
+                                <h3>Communicate about yourself in Single Click (SMS)</h3>
+                                <p>SMS is useful for all types of businesses, especially in targeting the local customers. With the help of SMS you can communicate your existing customer or increase your sale by 200% in just a couple of days. SMS Marketing service is excellent for promoting as well as in communicating with the customers and conveying a brand message or to develop strong brand awareness among the mass.</p>    
                             </div>
                         </div>
                     </div>
@@ -41,18 +41,16 @@ const MissedCallServiceProviderInIndia = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
-                                <h4>How Missed Call Service Actually Works</h4>
-                                <div className="bar py-2">
-                                    <p>
-                                    Your advertised number on diffenet medium sources (9810 XXX XXX) like Digital Media, Radio & TV, Publishing-Broucher, Pumplets, holdings etc. Or Product <strong>(Anyone who gives a missed call to a number, call will be get disconnect after a ring)</strong>
-                                    </p>
-                                    <p><strong>Each Missed Call is logged in System</strong></p>
-                                    <p><strong>Interact with Customer as per Business Process</strong>
-                                    </p>
-                                    <p><strong>Automize your Feedback/Support Or Verification </strong></p>
-                                    <p>And post call completed, System will automatically send sms on caller number with your customer sender ID,<strong> Example :  Pay TM, Tata Sky, ID-Idea, VM-ICICIB)</strong></p>
-                                    <p>You can also set Auto Thank you SMS, give updates or interact with customer for which purpose you asked to give missed call</p>
-                                </div>
+                                <h2>Usage</h2>
+                                <p><strong> Promotional Messages : Use for promotion acticity in India.</strong></p>
+                                <p><strong> Transactional SMS : Use for communication from company to consumer in India.</strong></p>
+                                <p><strong> International SMS : Communication via SMS globally.</strong></p>
+
+                                <p>You can send simple broadcast</p>
+                                <p>System will send the SMS to all the numbers that you have uploaded.</p>
+                                <p>Promotions SMS is usually used for enquiry generation for product/services.</p>
+                                <p>Transactional SMS used for update and communication to customer about product/services.</p>
+                                <p>High capacity system is capable to sending millions of SMS simultaneously. <strong>(This is also depends on   server load and interconnect traffic load between various telephone exchange/operator)</strong></p>
                             </div>
                             
                         </div>
@@ -73,4 +71,4 @@ const MissedCallServiceProviderInIndia = () => {
     )
 }
 
-export default MissedCallServiceProviderInIndia;
+export default BestSMSServiceInDelhi;

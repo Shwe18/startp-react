@@ -8,36 +8,42 @@ const PricingStyleOne = () => {
                 <div className="section-title">
                     <h2>Pricing Plans</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Not sure about service subscription ? Please go thru <Link href="/privacy-policy"><a><strong>100% refundable policy.</strong></a></Link></p>
                 </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Basic Plan</h3>
+                                <h3>Startup</h3>
+                                <h1>Rs. 12000</h1>
+                                <h6>yearly</h6>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>15.00 <span>/Mon</span></span>
+                            <h2>12000 Minutes</h2>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">5 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">1 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li>Data Security and Backups</li>
-                                    <li>Monthly Reports and Analytics</li>
+                                <li className="active">Unlimited Lines</li>
+                                    <li className="active">5 Agents</li>
+                                    <li className="active">IVR Solution</li>
+                                    <li className="active">Online Panel</li>
+                                    <li className="active">Call Recording</li>
+                                    <li className="active">Voicemail</li>
+                                    <li className="active">Non-working hours</li>
+                                    <li className="active">Customized Sender Id</li>
+                                    <li className="active">Number Blacklist</li>
+                                    <li className="active">Sticky Agent</li>
+                                    <li className="active">Rs. 0.70 / Forwarding Min</li>
+                                    <li className="active">Rs. 0.12 / Per SMS</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
                         </div>
@@ -46,29 +52,35 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table active-plan">
                             <div className="pricing-header">
-                                <h3>Advanced Plan</h3>
+                                <h3>Unlimited</h3>
+                                <h1>Rs. 18000</h1>
+                                <h6>yearly</h6>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>35.00 <span>/Mon</span></span>
+                                <h2>Unlimited Minutes</h2>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">10 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">3 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li className="active">Data Security and Backups</li>
-                                    <li>Monthly Reports and Analytics</li>
+                                <li className="active">Unlimited Lines</li>
+                                    <li className="active">Per Agent</li>
+                                    <li className="active">IVR Solutions</li>
+                                    <li className="active">Online Panel</li>
+                                    <li className="active">Call Recording</li>
+                                    <li className="active">Voicemail</li>
+                                    <li className="active">Non-working hours</li>
+                                    <li className="active">Customized Sender id</li>
+                                    <li className="active">Number Blacklist</li>
+                                    <li className="active">Sticky Agent</li>
+                                    <li className="active">Rs. 15000 / Per Agent</li>
+                                    <li className="active">Rs. 0.12 / Per SMS</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
                         </div>
@@ -77,29 +89,35 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Expert Plan</h3>
+                                <h3>Enterprises</h3>
+                                <h1>Rs. 120000</h1>
+                                <h6>yearly</h6>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>65.00 <span>/Mon</span></span>
+                            <h2>180000 Minutes</h2>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">15 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">5 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li className="active">Data Security and Backups</li>
-                                    <li className="active">Monthly Reports and Analytics</li>
+                                <li className="active">Unlimited Lines</li>
+                                    <li className="active">Unlimited Agents</li>
+                                    <li className="active">IVR Solutions</li>
+                                    <li className="active">Online Panel</li>
+                                    <li className="active">Call Recording</li>
+                                    <li className="active">Voicemail</li>
+                                    <li className="active">Non-working hours</li>
+                                    <li className="active">Customized Sender id</li>
+                                    <li className="active">Number Blacklist</li>
+                                    <li className="active">Sticky Agent</li>
+                                    <li className="active">Rs. 0.65 / Minute</li>
+                                    <li className="active">Rs. 0.12 / Per SMS</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
                         </div>
