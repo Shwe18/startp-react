@@ -14,7 +14,7 @@ const TopFeatures = () => {
                             </div>
                             <h3>
                                 <Link href="/feature-details">
-                                    <a>Money-back Guarantee</a>
+                                    <a>IVR Services</a>
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
@@ -28,7 +28,7 @@ const TopFeatures = () => {
                             </div>
                             <h3>
                                 <Link href="/feature-details">
-                                    <a>Big Data Transfer</a>
+                                    <a>Virtual Number</a>
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
@@ -42,7 +42,7 @@ const TopFeatures = () => {
                             </div>
                             <h3>
                                 <Link href="/feature-details">
-                                    <a>99.9% Server Uptime</a>
+                                    <a>BeTyphon</a>
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
@@ -56,7 +56,7 @@ const TopFeatures = () => {
                             </div>
                             <h3>
                                 <Link href="/feature-details">
-                                    <a>Live 24/7 Support</a>
+                                    <a>Cloud Telephony</a>
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
