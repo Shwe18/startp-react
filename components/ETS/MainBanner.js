@@ -8,11 +8,16 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-content">
-                            <h1>World’s Leading AI & Machine Learning Company</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                            <h1>Welcome To Techmet</h1>
 
                             <Link href="/contact">
-                                <a className="btn btn-secondary">Get Started</a>
+                                <a className="btn btn-danger">LOGIN</a>
+                            </Link>
+
+                            <br />
+
+                            <Link href="/contact">
+                                <a className="btn btn-danger">FREE TRIAL</a>
                             </Link>
                         </div>
                     </div>

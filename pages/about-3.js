@@ -5,7 +5,7 @@ import FunFactsArea from "@/components/Common/FunFactsArea";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
-import Partner from '@/components/MachineLearning/Partner';
+import Partner from '@/components/ETS/Partner';
 
 const About3 = () => {
     return (

@@ -68,15 +68,6 @@ const Partner = () => {
                             </a>
                         </Link>
                     </div>
-            
-                    <div className="single-ml-partner">
-                        <Link href="#">
-                            <a target="_blank">
-                                <img src="/images/partner-img/partner-10.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover10.png" alt="image" />
-                            </a>
-                        </Link>
-                    </div>
         
                     <div className="single-ml-partner">
                         <Link href="#">
@@ -92,15 +83,6 @@ const Partner = () => {
                             <a target="_blank">
                                 <img src="/images/partner-img/partner-6.png" alt="image" />
                                 <img src="/images/partner-img/partner-hover6.png" alt="image" />
-                            </a>
-                        </Link>
-                    </div>
-                
-                    <div className="single-ml-partner">
-                        <Link href="#">
-                            <a target="_blank">
-                                <img src="/images/partner-img/partner-7.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover7.png" alt="image" />
                             </a>
                         </Link>
                     </div>

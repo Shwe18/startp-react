@@ -57,12 +57,7 @@ const PartnerStyleTwo = () => {
                         </a>
                     </div>
         
-                    <div className="single-repair-partner">
-                        <a href="#" target="_blank">
-                            <img src='/images/partner-img/partner-10.png' alt="image" />
-                            <img src='/images/partner-img/partner-hover10.png' alt="image" />
-                        </a>
-                    </div>
+                   
             
                     <div className="single-repair-partner">
                         <a href="#" target="_blank">
@@ -78,12 +73,7 @@ const PartnerStyleTwo = () => {
                         </a>
                     </div>
         
-                    <div className="single-repair-partner">
-                        <a href="#" target="_blank">
-                            <img src='/images/partner-img/partner-7.png' alt="image" />
-                            <img src='/images/partner-img/partner-hover7.png' alt="image" />
-                        </a>
-                    </div>
+                   
                 </OwlCarousel> : ''}
             </div>
         </div>

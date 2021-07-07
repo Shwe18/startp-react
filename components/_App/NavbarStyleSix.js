@@ -72,26 +72,20 @@ const NavbarStyleSix = () => {
                                         </li>
  
                                         <li className="nav-item">
-                                            <Link href="/iot" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">IOT</a>
+                                            <Link href="/missed-call-service" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Missed Call Service</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/hosting" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Hosting</a>
+                                            <Link href="/employee-tracking-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Employee Tracking Solution</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/machine-learning" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning</a>
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/machine-learning-2" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning 2</a>
+                                            <Link href="/betyphon" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">BeTyphon : Mobile CRM</a>
                                             </Link>
                                         </li> 
 
@@ -419,22 +413,7 @@ const NavbarStyleSix = () => {
                             </ul>
                         </div>
 
-                        <div className="others-option">
-                            <Link href="/cart">
-                                <a className="cart-wrapper-btn">
-                                    <Icon.ShoppingCart /> 
-                                    <span>0</span>
-                                </a>
-                            </Link>
-
-                            <Link href="/contact">
-							    <a className="btn btn-light">Support</a>
-                            </Link>
-
-                            <Link href="/login">
-							    <a className="btn btn-primary">Login</a>
-                            </Link>
-						</div>
+                        
                     </nav>
                 </div>
             </div>
