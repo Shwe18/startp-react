@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/PCRepair/MainBanner';
+import MainBanner from '@/components/InteractiveVoiceResponse/MainBanner';
 import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
-import AboutUsContent from '@/components/PCRepair/AboutUsContent';
-import Services from '@/components/PCRepair/Services';
-import CTA from '@/components/PCRepair/CTA';
+import AboutUsContent from '@/components/InteractiveVoiceResponse/AboutUsContent';
+import Services from '@/components/InteractiveVoiceResponse/Services';
+import CTA from '@/components/InteractiveVoiceResponse/CTA';
 import FunFactsArea from '@/components/Common/FunFactsArea';
-import Team from '@/components/PCRepair/Team';
+import Team from '@/components/InteractiveVoiceResponse/Team';
 import Feedback from '@/components/Common/Feedback';
-import WhyChoose from '@/components/PCRepair/WhyChoose';
+import WhyChoose from '@/components/InteractiveVoiceResponse/WhyChoose';
 import BlogPost from '@/components/Common/BlogPost';
 import Footer from "@/components/_App/Footer";
 
-const PCRepair = () => {
+const CloudBasedCallManagementSystem = () => {
     return (
         <>
             <Navbar />
@@ -31,4 +31,4 @@ const PCRepair = () => {
     )
 }
 
-export default PCRepair;
+export default CloudBasedCallManagementSystem;

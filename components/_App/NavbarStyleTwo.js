@@ -90,7 +90,7 @@ const NavbarStyleTwo = () => {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/#" activeClassName="active">
+                                            <Link href="/sms" activeClassName="active">
                                                 <a onClick={e => e.preventDefault()} className="nav-link">
                                                     SMS <Icon.ChevronDown />
                                                 </a>
@@ -138,16 +138,10 @@ const NavbarStyleTwo = () => {
                                                 </li>
                                             </ul>
                                         </li>
-
-                                        
                                     </ul>
                                 </li>
 
-                                <li className="nav-item">
-                                            <Link href="/aboutus" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">About Us</a>
-                                            </Link>
-                                </li>
+                                
                                 
                                 <li className="nav-item">
                                     <Link href="/#">
@@ -170,32 +164,32 @@ const NavbarStyleTwo = () => {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/digital-agency-portfolio" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Digital Agency Portfolio</a>
+                                            <Link href="/ivr-service-provider" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">IVR Service Provider</a>
                                             </Link>
                                         </li>
   
                                         <li className="nav-item">
-                                            <Link href="/pc-repair" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">PC Repair</a>
+                                            <Link href="/interactive-voice-response" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Interactive Voice Response</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/about-1" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">About Style 1</a>
+                                            <Link href="/cloud-based-ivr-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based IVR Solution</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/about-2" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">About Style 2</a>
+                                            <Link href="/cloud-bsed-call-management-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based Call Management Solution</a>
                                             </Link>
                                         </li>
-
+  
                                         <li className="nav-item">
-                                            <Link href="/about-3" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">About Style 3</a>
+                                            <Link href="/cloud-based-call-management-system" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based Call Management System</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -342,12 +336,6 @@ const NavbarStyleTwo = () => {
                                                         <a onClick={toggleNavbar} className="nav-link">Sign Up</a>
                                                     </Link>
                                                 </li>
-
-                                                {/* <li className="nav-item">
-                                                    <Link href="/forgot-password" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Forgot Password</a>
-                                                    </Link>
-                                                </li> */}
                                             </ul> 
                                         </li>
                                     
@@ -377,32 +365,6 @@ const NavbarStyleTwo = () => {
                                             Partner With Us <Icon.ChevronDown />
                                         </a>
                                     </Link>
-
-                                    <ul className="dropdown-menu">
-                                        <li className="nav-item">
-                                            <Link href="/shop" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Shop</a>
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/product-details" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Products Details</a>
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/cart" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Cart</a>
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/checkout" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Checkout</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
                                 </li>
 
                                 <li className="nav-item">
@@ -462,25 +424,14 @@ const NavbarStyleTwo = () => {
                                         <a onClick={toggleNavbar} className="nav-link">Contact</a>
                                     </Link>
                                 </li>
+
+                                <li className="nav-item">
+                                    <Link href="/aboutus" activeClassName="active">
+                                        <a onClick={toggleNavbar} className="nav-link">About Us</a>
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
-
-                        {/* <div className="others-option">
-                            <Link href="/cart">
-                                <a className="cart-wrapper-btn">
-                                    <Icon.ShoppingCart /> 
-                                    <span>0</span>
-                                </a>
-                            </Link>
-
-                            <Link href="/contact">
-							    <a className="btn btn-light">Support</a>
-                            </Link>
-
-                            <Link href="/login">
-							    <a className="btn btn-primary">Login</a>
-                            </Link>
-						</div> */}
                     </nav>
                 </div>
             </div>
