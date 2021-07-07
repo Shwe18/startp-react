@@ -3,7 +3,7 @@ import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
 import MainBanner from "@/components/Index/MainBanner";
 import TopFeatures from '@/components/Index/TopFeatures';
 import OurFeatures from '@/components/Index/OurFeatures';
-import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
+import PricingTab from '@/components/Index/PricingTab';
 import Partner from "@/components/Common/Partner";
 import OurSolutions from '@/components/Index/OurSolutions';
 import FAQ from '@/components/Index/Faq';
@@ -17,7 +17,7 @@ const Index = () => {
             <MainBanner />
             <TopFeatures />
             <OurFeatures />
-            <PricingStyleTwo />
+            <PricingTab />
             <div className="pb-80">
                 <Partner />
             </div>

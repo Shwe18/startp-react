@@ -12,23 +12,31 @@ const MainBanner = () => {
 								<div className="hero-content">
 									<h1>WELCOME TO TECHMET</h1>
 									<div className="row">
+                                        <div className="col-2 px-5">
                                             <Link href="/contact">
                                                 <a className="btn btn-primary">Pricing</a>
                                             </Link>
-                                        
+                                        </div>
+                                        <div className="col-1 px-5"></div>
+                                        <div className="col-2 px-5">
                                             <Link href="/contact">
                                                 <a className="btn btn-primary">FAQ</a>
                                             </Link>
+                                            </div>
                                 
                                     </div>
                                     <div className="row py-5">
+                                        <div className="col-2 px-5">
                                             <Link href="/contact">
                                                 <a className="btn btn-primary">LOGIN</a>
                                             </Link>
-                                   
+                                        </div>
+                                        <div className="col-1 px-5"></div>
+                                          <div className="col-2 px-5">
                                             <Link href="/contact">
-                                                <a className="btn btn-danger">FREE TRIAL</a>
+                                                <a className="btn btn-danger">FREETRIAL</a>
                                             </Link>
+                                            </div>
                                        
                                     </div>
 								</div>
@@ -38,91 +46,91 @@ const MainBanner = () => {
 								<div className="banner-image">
                                     <img 
                                         src='/images/banner-image/man.png' 
-                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInDown animate_delay-0.1s" 
                                         alt="man" 
                                     />
                         
                                     <img 
                                         src="/images/banner-image/code.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInUp animate_delay-0.1s" 
                                         alt="code"
                                     />
                                 
                                     <img 
                                         src="/images/banner-image/carpet.png" 
-                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInLeft animate_delay-0.1s" 
                                         alt="carpet"
                                     />
                             
                                     <img 
                                         src="/images/banner-image/bin.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        className="animate_animated animatezoomIn animate_delay-0.1s" 
                                         alt="bin"
                                     />
                         
                                     <img 
                                         src="/images/banner-image/book.png" 
-                                        className="animate__animated animate__bounceIn animate__delay-0.1s" 
+                                        className="animate_animated animatebounceIn animate_delay-0.1s" 
                                         alt="book"
                                     />
                         
                                     <img 
                                         src="/images/banner-image/dekstop.png" 
-                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInDown animate_delay-0.1s" 
                                         alt="dekstop"
                                     />
                     
                                     <img 
                                         src="/images/banner-image/dot.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        className="animate_animated animatezoomIn animate_delay-0.1s" 
                                         alt="dot"
                                     />
                         
                                     <img 
                                         src="/images/banner-image/flower-top-big.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInUp animate_delay-0.1s" 
                                         alt="flower-top-big"
                                     />
                         
                                     <img 
                                         src="/images/banner-image/flower-top.png" 
-                                        className="animate__animated animate__rotateIn animate__delay-0.1s" 
+                                        className="animate_animated animaterotateIn animate_delay-0.1s" 
                                         alt="flower-top"
                                     />
                     
                                     <img 
                                         src="/images/banner-image/keyboard.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInUp animate_delay-0.1s" 
                                         alt="keyboard"
                                     />
                             
                                     <img 
                                         src="/images/banner-image/pen.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        className="animate_animated animatezoomIn animate_delay-0.1s" 
                                         alt="pen"
                                     />
                                 
                                     <img 
                                         src="/images/banner-image/table.png" 
-                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        className="animate_animated animatezoomIn animate_delay-0.1s" 
                                         alt="table"
                                     />
                     
                                     <img 
                                         src="/images/banner-image/tea-cup.png" 
-                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        className="animate_animated animatefadeInLeft animate_delay-0.1s" 
                                         alt="tea-cup"
                                     />
                         
                                     <img 
                                         src="/images/banner-image/headphone.png" 
-                                        className="animate__animated animate__rollIn animate__delay-0.1" 
+                                        className="animate_animated animaterollIn animate_delay-0.1" 
                                         alt="headphone"
                                     />
                             
                                     <img 
                                         src="/images/banner-image/main-pic.png" 
-                                        className="animate__animated animate__fadeInUp animate__delay-0.1" 
+                                        className="animate_animated animatefadeInUp animate_delay-0.1" 
                                         alt="main-pic"
                                     />
 								</div>
