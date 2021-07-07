@@ -74,29 +74,48 @@ const Navbar = () => {
                                         </li>
  
                                         <li className="nav-item">
-                                            <Link href="/iot" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">IOT</a>
+                                            <Link href="/missed-call-service" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Missed Call Service</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/hosting" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Hosting</a>
+                                            <Link href="/employee-tracking-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Employee Tracking Solution</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/machine-learning" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning</a>
+                                            <Link href="/betyphon" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">BeTyphon : Mobile CRM</a>
                                             </Link>
-                                        </li>
+                                        </li>  
 
+                                        <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                            <Link href="/machine-learning-2" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning 2</a>
+                                            <Link href="/#" activeClassName="active">
+                                                <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    Features <Icon.ChevronDown />
+                                                </a>
                                             </Link>
-                                        </li> 
 
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/features" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Features</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/feature-details" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Features Details</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        </ul>
+                                        
+                                        
                                         <li className="nav-item">
                                             <Link href="/bigdata-analytics" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">Bigdata Analytics</a>

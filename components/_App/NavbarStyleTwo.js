@@ -51,7 +51,7 @@ const NavbarStyleTwo = () => {
 
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
-                                <li className="nav-item">
+                                <li className=" nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
                                             Solutions <Icon.ChevronDown />
@@ -72,28 +72,26 @@ const NavbarStyleTwo = () => {
                                         </li>
  
                                         <li className="nav-item">
-                                            <Link href="/iot" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">IOT</a>
+                                            <Link href="/missed-call-service" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Missed Call Service</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/hosting" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Hosting</a>
+                                            <Link href="/employee-tracking-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Employee Tracking Solution</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/machine-learning" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning</a>
+                                            <Link href="/betyphon" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">BeTyphon : Mobile CRM</a>
                                             </Link>
-                                        </li>
+                                        </li
 
-                                        <li className="nav-item">
-                                            <Link href="/machine-learning-2" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Machine Learning 2</a>
-                                            </Link>
-                                        </li> 
+     
+
+
 
                                         <li className="nav-item">
                                             <Link href="/bigdata-analytics" activeClassName="active">

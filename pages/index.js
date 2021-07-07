@@ -10,7 +10,7 @@ import FAQ from '@/components/Index/Faq';
 import CTA from '@/components/Common/CTA';
 import Footer from "@/components/_App/Footer";
 
-const Hosting = () => {
+const Index = () => {
     return (
         <>
             <NavbarStyleTwo />
@@ -29,4 +29,4 @@ const Hosting = () => {
     )
 }
 
-export default Hosting;
+export default Index;
