@@ -116,6 +116,58 @@ const NavbarStyleSix = () => {
                                 </li>
 
                                 <li className="nav-item">
+                                    <Link href="/#">
+                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                            Use Cases <Icon.ChevronDown />
+                                        </a>
+                                    </Link> 
+
+                                    <ul className="dropdown-menu">
+                                        <li className="nav-item">
+                                            <Link href="/virtual-number" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Virtual Number</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/cloud-telephony" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Telephony</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/ivr-service-provider" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">IVR Service Provider</a>
+                                            </Link>
+                                        </li>
+  
+                                        <li className="nav-item">
+                                            <Link href="/interactive-voice-response" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Interactive Voice Response</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/cloud-based-ivr-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based IVR Solution</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/cloud-bsed-call-management-solution" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based Call Management Solution</a>
+                                            </Link>
+                                        </li>
+  
+                                        <li className="nav-item">
+                                            <Link href="/cloud-based-call-management-system" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Cloud Based Call Management System</a>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li className="nav-item">
                                             <Link href="/aboutus" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">About Us</a>
                                             </Link>

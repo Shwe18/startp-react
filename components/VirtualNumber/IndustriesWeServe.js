@@ -17,7 +17,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-buildings'></i>
                             </div>
-                            Manufacturing
+                            One Number for Callers
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -29,7 +29,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-building-house'></i>
                             </div>
-                            Healthcare
+                            Call attending at 1st ring
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -41,7 +41,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-car'></i>
                             </div>
-                            Automobile
+                            Distribute Same information to each caller
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -53,7 +53,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-credit-card'></i>
                             </div>
-                            Banking
+                            Increase your brand image for callers
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -65,7 +65,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-building'></i>
                             </div>
-                            Real Estate
+                            No Hardware cost
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -77,7 +77,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bxs-plane-alt'></i>
                             </div>
-                            Logistics
+                            Never loss business leads
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -89,7 +89,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-group'></i>
                             </div>
-                            Insurance
+                            Pay-as-you-grow model
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -101,7 +101,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-bitcoin'></i>
                             </div>
-                            Capital Markets
+                            Scale without adding manpower
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
