@@ -9,7 +9,7 @@ import TollfreePricing from "@/components/Tollfree/TollfreePricing";
 import Partner from "@/components/Common/Partner";
 import Footer from "@/components/_App/Footer";
 
-const Tollfree = () => {
+const TextSms = () => {
     return (
         <>
             <Navbar />
@@ -25,4 +25,4 @@ const Tollfree = () => {
     )
 }
 
-export default Tollfree;
+export default TextSms;

@@ -13,7 +13,8 @@ const MainBanner = () => {
                     <Link href="/contact">
                         <a className="btn btn-primary">Get Started</a>
                     </Link>
-                </div>
+                </div> 
+                
             </div>
 
             <div className="banner-boxes-area">

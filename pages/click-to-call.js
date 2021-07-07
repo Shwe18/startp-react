@@ -2,27 +2,27 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/Tollfree/MainBanner";
 import Features from "@/components/Tollfree/Features";
-import ServicesArea from "@/components/Tollfree/ServicesArea";
+import ServiceArea from "@/components/ClickToCall/ServiceArea";
 import OurServices from "@/components/Tollfree/OurServices";
 import FunFactsArea from "@/components/Common/FunFactsArea";
-import TollfreePricing from "@/components/Tollfree/TollfreePricing";
+import ClickToCallPricing from "@/components/ClickToCall/ClickToCallPricing";
 import Partner from "@/components/Common/Partner";
 import Footer from "@/components/_App/Footer";
 
-const Tollfree = () => {
+const ClickToCall = () => {
     return (
         <>
             <Navbar />
             <MainBanner />
             <Features />
-            <ServicesArea />
+            <ServiceArea />
             <OurServices />
             <FunFactsArea />
-            <TollfreePricing />
+            <ClickToCallPricing />
             <Partner />s
             <Footer />
         </>
     )
 }
 
-export default Tollfree;
+export default ClickToCall;
