@@ -87,7 +87,7 @@ const NavbarStyleTwo = () => {
                                             <Link href="/betyphon" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">BeTyphon : Mobile CRM</a>
                                             </Link>
-                                        </li
+                                        </li>
 
      
 
