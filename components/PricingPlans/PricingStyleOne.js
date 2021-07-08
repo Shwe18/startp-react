@@ -26,12 +26,12 @@ const PricingStyleOne = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li className="active">Unlimited Lines</li>
-                                    <li className="active">5 Agents</li>
-                                    <li className="active">IVR Solution</li>
-                                    <li className="active">Online Panel</li>
-                                    <li className="active">Call Recording</li>
-                                    <li className="active">Voicemail</li>
+                                <li className="active"> <strong className="text-primary">Unlimited Lines</strong></li>
+                                    <li className="active"> <strong className="text-primary">5 Agents</strong></li>
+                                    <li className="active"> <strong className="text-primary">IVR Solution</strong></li>
+                                    <li className="active"> <strong className="text-primary">Online Panel</strong></li>
+                                    <li className="active"> <strong className="text-primary">Call Recording</strong></li>
+                                    <li className="active"> <strong className="text-primary">Voicemail</strong></li>
                                     <li className="active">Non-working hours</li>
                                     <li className="active">Customized Sender Id</li>
                                     <li className="active">Number Blacklist</li>
@@ -63,12 +63,12 @@ const PricingStyleOne = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li className="active">Unlimited Lines</li>
-                                    <li className="active">Per Agent</li>
-                                    <li className="active">IVR Solutions</li>
-                                    <li className="active">Online Panel</li>
-                                    <li className="active">Call Recording</li>
-                                    <li className="active">Voicemail</li>
+                                <li className="active"> <strong className="text-primary">Unlimited Lines</strong></li>
+                                    <li className="active"> <strong className="text-primary">5 Agents</strong></li>
+                                    <li className="active"> <strong className="text-primary">IVR Solution</strong></li>
+                                    <li className="active"> <strong className="text-primary">Online Panel</strong></li>
+                                    <li className="active"> <strong className="text-primary">Call Recording</strong></li>
+                                    <li className="active"> <strong className="text-primary">Voicemail</strong></li>
                                     <li className="active">Non-working hours</li>
                                     <li className="active">Customized Sender id</li>
                                     <li className="active">Number Blacklist</li>
@@ -100,12 +100,12 @@ const PricingStyleOne = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li className="active">Unlimited Lines</li>
-                                    <li className="active">Unlimited Agents</li>
-                                    <li className="active">IVR Solutions</li>
-                                    <li className="active">Online Panel</li>
-                                    <li className="active">Call Recording</li>
-                                    <li className="active">Voicemail</li>
+                                <li className="active"> <strong className="text-primary">Unlimited Lines</strong></li>
+                                    <li className="active"> <strong className="text-primary">5 Agents</strong></li>
+                                    <li className="active"> <strong className="text-primary">IVR Solution</strong></li>
+                                    <li className="active"> <strong className="text-primary">Online Panel</strong></li>
+                                    <li className="active"> <strong className="text-primary">Call Recording</strong></li>
+                                    <li className="active"> <strong className="text-primary">Voicemail</strong></li>
                                     <li className="active">Non-working hours</li>
                                     <li className="active">Customized Sender id</li>
                                     <li className="active">Number Blacklist</li>

@@ -6,10 +6,9 @@ const IndustriesWeServe = () => {
         <div className="industries-serve-area ptb-80">
             <div className="container">
                 <div className="section-title">
-                    <h2>Industries We Serve</h2>
+                    <h2>Benefits</h2>
 					<div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+                  </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-3 col-6 col-sm-6 col-md-4">
@@ -18,6 +17,7 @@ const IndustriesWeServe = () => {
                                 <i className='bx bx-buildings'></i>
                             </div>
                             One Number for Callers
+                            <br />
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -30,6 +30,7 @@ const IndustriesWeServe = () => {
                                 <i className='bx bx-building-house'></i>
                             </div>
                             Call attending at 1st ring
+                            <br />
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -53,7 +54,7 @@ const IndustriesWeServe = () => {
                             <div className="icon">
                                 <i className='bx bx-credit-card'></i>
                             </div>
-                            Increase your brand image for callers
+                            Increase your brand image for caller
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>
@@ -66,6 +67,7 @@ const IndustriesWeServe = () => {
                                 <i className='bx bx-building'></i>
                             </div>
                             No Hardware cost
+                            <br />
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
                             </Link>

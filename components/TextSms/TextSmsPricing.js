@@ -1,36 +1,64 @@
 import React from 'react';
 import Link from 'next/link'
 
-const ClickToCallPricing = () => {
+const TollfreePricing = () => {
     return (
         <div className="pricing-area pt-80 pb-50 bg-f9f6f6">
             <div className="container">
                 <div className="section-title">
-                    <h2>Price</h2>
-                    <div className="bar"></div>
-                    
+                    <h2>Pricing Plans</h2>
                 </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h4>Startup</h4>
-                                <h3>Rs. 10000/Year</h3>
-                                
+                                <h3>Startup</h3>
+                                <h2>Rs. 18000/ Yearly</h2>
+                                <h5>12000 Minutes</h5>
+                            </div>
+                           
+                            <div className="pricing-features">
+                                <ul>
+                                    <li className="active"> Welcome Message</li>
+                                    <li className="active"> Programmable Extensions</li>
+                                    <li className="active"> SMS Alert</li>
+                                    <li className="active"> Voicemail</li>
+                                    <li className="active"> Number Blacklist</li>
+                                    <li className="active"> Multilevel IVR</li>
+                                    <li className="active"> Sticky Agent</li>
+                                    <li className="active"> Circle base Routing</li>
+                                    <li className="active"> Customize Sender Id</li>
+                                </ul>
                             </div>
                             
-                           
+                            <div className="pricing-footer">
+                                <Link href="signup">
+                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="pricing-table active-plan">
+                            <div className="pricing-header">
+                                <h3>Advance</h3>
+                                <h2>Rs. 6000/ Yearly</h2>
+                                <h5>42000 Minutes</h5>
+                            </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"><strong className="text-primary">Click2call Link</strong></li>
-                                    <li className="active"><strong className="text-primary">SMS Alert</strong></li>
-                                    <li className="active">Call Recording</li>
-                                    <li className="active">Online Reports</li>
-                                    <li className="active">Customized Integration</li>
-                                   
-                                
+                                    <li className="active"> Welcome Message</li>
+                                    <li className="active"> Programmable Extensions</li>
+                                    <li className="active"> SMS Alert</li>
+                                    <li className="active"> Voicemail</li>
+                                    <li className="active"> Number Blacklist</li>
+                                    <li className="active"> Multilevel IVR</li>
+                                    <li className="active"> Sticky Agent</li>
+                                    <li className="active"> Customize Sender Id</li>
+                                    <li className="active"> Circle base Routing</li>
                                 </ul>
                             </div>
                             
@@ -45,50 +73,22 @@ const ClickToCallPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h4>Advance</h4>
-                                <h3>Rs. 18000/Year</h3>
-                               
+                                <h3>Business</h3>
+                                <h2>Rs.1,20,000/ Yearly</h2>
+                                <h5>90000 Minutes</h5>
                             </div>
-                            
-                           
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"><strong className="text-primary">Click2call link</strong></li>
-                                    <li className="active"><strong className="text-primary">SMS Alert</strong></li>
-                                    <li className="active"><strong className="text-primary">Call Recording</strong></li>
-                                    <li className="active"><strong className="text-primary">Reports</strong></li>
-                                    <li className="active">Customized Integration</li>
-                                    
-                                </ul>
-                            </div>
-                            
-                            <div className="pricing-footer">
-                                <Link href="signup">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-md-6">
-                        <div className="pricing-table">
-                            <div className="pricing-header">
-                            <h4>Business</h4>
-                                <h3>Rs. 36000/Year</h3>
-                                
-                            </div>
-                            
-                            
-                            
-                            <div className="pricing-features">
-                                <ul>
-                                    <li className="active"><strong className="text-primary">Click2call link</strong></li>
-                                    <li className="active"><strong className="text-primary">SMS Alert</strong></li>
-                                    <li className="active"><strong className="text-primary">Call Recording</strong></li>
-                                    <li className="active"><strong className="text-primary">Reports</strong></li>
-                                    <li className="active"><strong className="text-primary">Customized Integration</strong></li>
-                                   
+                                    <li className="active"> Welcome Message</li>
+                                    <li className="active"> Programmable Extensions</li>
+                                    <li className="active"> SMS Alert</li>
+                                    <li className="active"> Voicemail</li>
+                                    <li className="active"> Number Blacklist</li>
+                                    <li className="active"> Multilevel IVR</li>
+                                    <li className="active"> Sticky Agent</li>
+                                    <li className="active"> Circle base Routing</li>
+                                    <li className="active"> Customize Sender Id</li>
                                 </ul>
                             </div>
                             
@@ -100,7 +100,6 @@ const ClickToCallPricing = () => {
                         </div>
                     </div>
                 </div>
-                
             </div>
 
             {/* Shape Images */}
@@ -121,4 +120,4 @@ const ClickToCallPricing = () => {
     
 }
 
-export default ClickToCallPricing;
+export default TollfreePricing;

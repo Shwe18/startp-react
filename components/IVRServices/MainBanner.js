@@ -36,7 +36,7 @@ const MainBanner = () => {
                                             <Link href="/contact">
                                                 <a className="btn btn-danger">FREETRIAL</a>
                                             </Link>
-                                            </div>
+                                           </div>
                                        
                                     </div>
 								</div>

@@ -14,7 +14,6 @@ const MainBanner = () => {
                         <a className="btn btn-primary">Get Started</a>
                     </Link>
                 </div> 
-                
             </div>
 
             <div className="banner-boxes-area">

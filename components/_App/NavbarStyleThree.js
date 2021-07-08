@@ -51,7 +51,7 @@ const NavbarStyleThree = () => {
 
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
-                                <li className="nav-item">
+                            <li className=" nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
                                             Solutions <Icon.ChevronDown />
@@ -60,7 +60,7 @@ const NavbarStyleThree = () => {
 
                                     <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                            <Link href="/it-startup" activeClassName="active">
+                                            <Link href="/ivr-services" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">IVR Services</a>
                                             </Link>
                                         </li>
@@ -87,33 +87,60 @@ const NavbarStyleThree = () => {
                                             <Link href="/betyphon" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">BeTyphon : Mobile CRM</a>
                                             </Link>
-                                        </li> 
-
-                                        <li className="nav-item">
-                                            <Link href="/bigdata-analytics" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Bigdata Analytics</a>
-                                            </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/digital-agency" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Digital Agency</a>
+                                            <Link href="/sms" activeClassName="active">
+                                                <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    SMS <Icon.ChevronDown />
+                                                </a>
                                             </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/text-sms" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Text SMS </a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/voice-sms" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Voice SMS </a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/digital-agency-portfolio" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Digital Agency Portfolio</a>
+                                            <Link href="/#" activeClassName="active">
+                                                <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    Customized Solutions <Icon.ChevronDown />
+                                                </a>
                                             </Link>
-                                        </li>
-  
-                                        <li className="nav-item">
-                                            <Link href="/pc-repair" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">PC Repair</a>
-                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/click-to-call" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Click To Call </a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/audio-conference" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Audio Conference </a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/call-centre-dialer" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Call Centre Dialer </a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </li>
+
 
                                 <li className="nav-item">
                                     <Link href="/#">

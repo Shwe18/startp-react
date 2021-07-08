@@ -1,14 +1,12 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/ETS/MainBanner';
+import MainBanner from '@/components/VoiceSms/MainBanner';
 import Partner from '@/components/ETS/Partner';
-import WhatWeOffer from '@/components/ETS/WhatWeOffer';
-import AboutUsContent from '@/components/ETS/AboutUsContent';
+import WhatWeOffer from '@/components/VoiceSms/WhatWeOffer';
+import AboutUsContent from '@/components/VoiceSms/AboutUsContent';
 import OurServices from '@/components/ETS/OurServices';
 import FunFactsArea from '@/components/Common/FunFactsArea';
-import ETSPricing from '@/components/ETS/ETSPricing';
-import Features from '@/components/ETS/Features';
-import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
+import VoiceSmsPricing from '@/components/VoiceSms/VoiceSmsPricing';
 import Newsletter from '@/components/Common/Newsletter';
 import Footer from "@/components/_App/Footer";
 
@@ -17,14 +15,12 @@ const VoiceSms = () => {
         <>
             <Navbar />
             <MainBanner />
+            <AboutUsContent />
             <Partner />
             <WhatWeOffer />
-            <AboutUsContent />
             <OurServices />
             <FunFactsArea />
-            <ETSPricing />
-            <Features />
-            <FeedbackStyleFour />
+            <VoiceSmsPricing />
             <Newsletter />
             <Footer />
         </>

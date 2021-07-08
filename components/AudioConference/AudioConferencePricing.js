@@ -55,13 +55,13 @@ const AudioConferencePricing= () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li><i data-feather="check"></i> <strong> Welcome Message</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong>Allowed Only List</strong></li>
-                                    <li><i data-feather="check"></i><strong>Attendance Reports</strong></li>
-                                    <li><i data-feather="check"></i> <strong> Demand PIN </strong></li>
-                                    <li><i data-feather="check"></i> <strong> Recording & Playback</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong> Leader Hangup</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong> Lecture Mode Conference</strong>  </li>
+                                <li><i data-feather="check"></i> <strong className="text-primary"> Welcome Message</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary">Allowed Only List</strong></li>
+                                    <li><i data-feather="check"></i><strong className="text-primary">Attendance Reports</strong></li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Demand PIN </strong></li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Recording & Playback</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Leader Hangup</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Lecture Mode Conference</strong>  </li>
                                     <li><i data-feather="check"></i> Operator Dial-Out </li>
                                     
                                 </ul>
@@ -88,13 +88,13 @@ const AudioConferencePricing= () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li><i data-feather="check"></i> <strong> Welcome Message</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong>Allowed Only List</strong></li>
-                                    <li><i data-feather="check"></i><strong>Attendance Reports</strong></li>
-                                    <li><i data-feather="check"></i> <strong> Demand PIN </strong></li>
-                                    <li><i data-feather="check"></i> <strong> Recording & Playback</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong> Leader Hangup</strong>  </li>
-                                    <li><i data-feather="check"></i> <strong> Lecture Mode Conference</strong>  </li>
+                                <li><i data-feather="check"></i> <strong className="text-primary"> Welcome Message</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary">Allowed Only List</strong></li>
+                                    <li><i data-feather="check"></i><strong className="text-primary">Attendance Reports</strong></li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Demand PIN </strong></li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Recording & Playback</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Leader Hangup</strong>  </li>
+                                    <li><i data-feather="check"></i> <strong className="text-primary"> Lecture Mode Conference</strong>  </li>
                                     <li><i data-feather="check"></i> Operator Dial-Out </li>
                                     
                                 </ul>
