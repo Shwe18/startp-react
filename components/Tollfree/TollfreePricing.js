@@ -44,7 +44,7 @@ const TollfreePricing = () => {
                         <div className="pricing-table active-plan">
                             <div className="pricing-header">
                                 <h3>Advance</h3>
-                                <h2>Rs. 6000/ Yearly</h2>
+                                <h2>Rs. 60000/ Yearly</h2>
                                 <h5>42000 Minutes</h5>
                             </div>
                             
