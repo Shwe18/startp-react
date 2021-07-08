@@ -8,7 +8,7 @@ const BigdataFunFacts = () => {
 				<div className="section-title">
 					<h2>We always try to understand users expectation</h2>
 					<div className="bar"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					
 				</div>
 
 				<div className="row">
@@ -42,14 +42,34 @@ const BigdataFunFacts = () => {
 				</div>
 
 				<div className="contact-cta-box">
-					<h3>Have any question about us?</h3>
-					<p>Don't hesitate to contact us</p>
+					<h3>Know more about Tollfree Service </h3>
+					<p>Call on +91-9871045375</p>
 
                     <Link href="/contact">
-					    <a className="btn btn-primary">Contact Us</a>
+					    <a className="btn btn-primary">Request for demo</a>
                     </Link>
 				</div>
 			</div>
+
+			   {/* Shape Images */}
+			   <div className="shape2 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
+            <div className="shape3">
+                <img src="/images/shape3.svg" alt="shape" />
+            </div>
+            <div className="shape4">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape6 rotateme">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape7">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape8 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
 		</div>
     )
 }

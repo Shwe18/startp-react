@@ -44,7 +44,7 @@ const Features = () => {
 										<span className="divider"></span>
 									<Tab className="col-lg-3 col-md-3" tabFor="two">CALL RECORDINGS</Tab>
 										<span className="divider"></span>
-									<Tab className="col-lg-3 col-md-3" tabFor="three" className="my-tab">CALL DETAILS</Tab>
+									<Tab className="col-lg-3 col-md-3" tabFor="three" className=" col-4 my-tab">CALL DETAILS</Tab>
 								</TabList>
 								<div className="wrapper">
 									<TabPanel tabId="one">

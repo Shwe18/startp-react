@@ -1,12 +1,12 @@
-import React from 'react'; 
+import React from 'react';
 
-const NewsletterStyleTwo = () => {
+
+
+const CloudWorks = () => {
     return (
-        <section>
-                <div className="discover-area ptb-60">
-            <div className="container">
-                <div className="row align-items-center">
-            <div class ="Container-fluid">
+<section>
+                <div className="agency-services-area pt-80 pb-50">
+                <div class ="Container-fluid">
                 <hr></hr>
                 <h2 class="text-center  p-4 px-5">How Virual Number Actually Works</h2>
                 <hr></hr>
@@ -15,7 +15,7 @@ const NewsletterStyleTwo = () => {
 
             <div className="Container-fluid" >
                 <div className ="row " >
-                    <div class ="col-9 py-5 px-3">
+                    <div class ="col-9 p-5">
                         <div>
                         <h6 class="px-5">Anyone who calls on your Business Number, will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong>) and post welcome message extension option will come :</h6>
                    
@@ -71,12 +71,10 @@ const NewsletterStyleTwo = () => {
                             </div>
                     </div> 
                 </div>    
-            </div>  
-            </div>
-            </div>
+            </div> 
 
-               {/* Shape Images */}
-               <div className="shape2 rotateme">
+             {/* Shape Images */}
+            <div className="shape2 rotateme">
                 <img src="/images/shape2.svg" alt="shape" />
             </div>
             <div className="shape3">
@@ -93,7 +91,7 @@ const NewsletterStyleTwo = () => {
             </div>
             <div className="shape8 rotateme">
                 <img src="/images/shape2.svg" alt="shape" />
-            </div>
+            </div> 
             </div>
                
 
@@ -101,7 +99,9 @@ const NewsletterStyleTwo = () => {
 </section>
 
 
-
-    )  
+    )
 }
-export default NewsletterStyleTwo;  
+
+         
+
+export default CloudWorks;

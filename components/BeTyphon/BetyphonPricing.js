@@ -20,13 +20,15 @@ const BetyphonPricing = () => {
                            
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">  1 uSER</li>
-                                    <li className="active"> Email Support Only</li>
-                                    <li className="active"> Web & Mobile CRM</li>
-                                    <li className="active"> Auto Lead Distribution</li>
-                                    <li className="active"> Tasks & Reminders </li>
-                                    <li className="active"> Customized Calling structure </li>
-                                    <li className="active"> Real-time Reports </li>
+                                    <li className="active"> <strong className="text-primary"> 1 USER</strong></li>
+                                    <li className="active"> <strong className="text-primary">Email Support Only</strong> </li>
+                                    <li className="active"> <strong className="text-primary">Web & Mobile CRM</strong></li>
+                                    <li className="active"> <strong className="text-primary">Auto Lead Distribution</strong></li>
+                                    <li className="active"> <strong className="text-primary">Tasks & Reminders</strong> </li>
+                                    <li className="active"> <strong className="text-primary">Customized Calling structure</strong> </li>
+                                    <li className="active"> <strong className="text-primary">Real-time Reports </strong></li>
+                                    <br />
+                                    <br />
                                 </ul>
                             </div>
                             
@@ -48,15 +50,15 @@ const BetyphonPricing = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"> Everything in free, and</li>
-                                    <li className="active"> Chat & phone support</li>
-                                    <li className="active"> Auto Lead Capture</li>
-                                    <li className="active"> Dynamic Reports</li>
-                                    <li className="active"> Dynamic Reports</li>
-                                    <li className="active"> SMS & Email Communication</li>
-                                    <li className="active"> Push Notification</li>
-                                    <li className="active"> Call Details & Call Recording</li>
-                                    <li className="active"> Real-time Tracking</li>
+                                    <li className="active"> <strong className="text-primary">Everything in free, and </strong></li>
+                                    <li className="active"> <strong className="text-primary">Chat & phone support </strong></li>
+                                    <li className="active"> <strong className="text-primary">Auto Lead Capture </strong></li>
+                                    <li className="active"> <strong className="text-primary">Dynamic Reports </strong></li>
+                                    <li className="active"> <strong className="text-primary">Dynamic Reports </strong></li>
+                                    <li className="active"> <strong className="text-primary">SMS & Email Communication </strong></li>
+                                    <li className="active"> <strong className="text-primary">Push Notification </strong></li>
+                                    <li className="active"> <strong className="text-primary">Call Details & Call Recording </strong></li>
+                                    <li className="active"> <strong className="text-primary">Real-time Tracking </strong></li>
                                 </ul>
                             </div>
                             
@@ -78,13 +80,15 @@ const BetyphonPricing = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"> Everything in Free & Standard, and</li>
-                                    <li className="active"> On-site Support</li>
-                                    <li className="active"> Rule based triggers</li>
-                                    <li className="active"> Custom Workflow</li>
-                                    <li className="active"> Push Notification</li>
-                                    <li className="active"> API and Webhook Integration</li>
-                                    <li className="active"> Custom Lead Integrations</li>
+                                    <li className="active"> <strong className="text-primary">Everything in Free & Standard, and </strong></li>
+                                    <li className="active"> <strong className="text-primary">On-site Support </strong></li>
+                                    <li className="active"> <strong className="text-primary">Rule based triggers </strong></li>
+                                    <li className="active"> <strong className="text-primary">Custom Workflow </strong></li>
+                                    <li className="active"> <strong className="text-primary">Push Notification </strong></li>
+                                    <li className="active"> <strong className="text-primary">API and Webhook Integration </strong></li>
+                                    <li className="active"> <strong className="text-primary">Custom Lead Integrations </strong></li>
+                                    <br />
+                                    <br />
                                 </ul>                       
                             </div>
                             

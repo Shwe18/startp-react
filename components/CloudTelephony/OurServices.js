@@ -6,133 +6,49 @@ const OurServices = () => {
     return (
         <div className="agency-services-area pt-80 pb-50">
             <div className="container">
-                <div className="section-title st-fs-28">
-                    <span className="sub-title">Our Solutions</span>
-                    <h2>Our Services</h2>
-                    <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
 
-                <div className="row justify-content-center">
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img1.jpg" alt="image" />
-
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>IT Professionals</a>
-                                    </Link>
-                                </h3>
-
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
+                <div className="content">
+                    <div className="row">      
+                        <div className="col-lg-6">   
+                     
+                            <h1 className ="py-3">Welcome To Techmet</h1>
+                            <h3>Cloud Telephony Solution will helps you to manage Communication with Customers</h3><br />
+                            <h5>Grow your business with Cloud technology based IVR :</h5><br />
+                            <h6>Cloud technology enables interaction between a caller and a computer via telephone. Call will get connected to desire person/department anywhere. Techmet offers Cloud Telephony based innovative reporting system for small, medium and enterprises business in india. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</h6>
                         </div>
-                    </div>
+                      
+                       
+                    <div className="col-6">
+                      <div className="col-1 "></div>
+                         <div className="row py-2 ">
+                             <div class="btn-group">
+                                   <div className="col-4"></div>
+                                   <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-primary">Pricing</a>
+                                       </Link>
+                                   </div>
 
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img2.jpg" alt="image" />
 
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>Software Engineers</a>
-                                    </Link>
-                                </h3>
+                                  <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-danger">FreeTrial</a>
+                                       </Link>
+                                    </div>
+                              </div>
 
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                        <img src="/images/agency-image/agency-services-img3.jpg" alt="image" />
-
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>Web Development</a>
-                                    </Link>
-                                </h3>
-
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                        <img src="/images/agency-image/agency-services-img4.jpg" alt="image" />
-
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>SEO & Content</a>
-                                    </Link>
-                                </h3>
-
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                        <img src="/images/agency-image/agency-services-img5.jpg" alt="image" />
-
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>Digital Marketing</a>
-                                    </Link>
-                                </h3>
-
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-sm-6 col-md-6">
-                        <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img6.jpg" alt="image" />
-
-                            <div className="content">
-                                <h3>
-                                    <Link href="/service-details">
-                                        <a>Data Analysts</a>
-                                    </Link>
-                                </h3>
-
-                                <Link href="/service-details">
-                                    <a className="read-more-btn">
-                                        Read More <Icon.PlusCircle />
-                                    </a>
-                                </Link>
-                            </div>
+                           
+                            
+                            
+                           
+              
+                          </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
             {/* Shape Images */}

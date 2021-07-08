@@ -20,11 +20,20 @@ const WhatWeOffer = () => {
                                 <img src="/images/icon4.png" alt="image" />
                             </div>
                             <h3>
-                                <Link href="#">
-                                    <a>Robotic Automation</a>
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+								<Link href="/feature-details">
+									<a>Single Dashboard to manage all leads </a>
+								</Link>
+							</h3>
+
+							<ul>
+								<li> Leads All in One place</li>
+								<li> Add or Remove leads easily </li>
+								<li> Search leads by any column </li>
+								<li> Manage leads distribution</li>
+								<br />
+								<br />
+								<br />
+							</ul>
 
                             <Link href="#">
                                 <a className="learn-more-btn">
@@ -40,11 +49,21 @@ const WhatWeOffer = () => {
                                 <img src="/images/icon5.png" alt="image" />
                             </div>
                             <h3>
-                                <Link href="#">
-                                    <a>Cognitive Automation</a>
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+								<Link href="/feature-details">
+									<a>Call Recording & Advance Reports</a>
+								</Link>
+							</h3>
+
+							<ul>
+								<li> Real-time Reports</li>
+								<li> Call history of dialouts</li>
+								<li> Communication Reports</li>
+								<li> Customized Report</li>
+								<li> Call Recording </li>
+								<br />
+								<br />
+
+							</ul>
                             
                             <Link href="#">
                                 <a className="learn-more-btn">
@@ -60,12 +79,17 @@ const WhatWeOffer = () => {
                                 <img src="/images/icon6.png" alt="image" />
                             </div>
                             <h3>
-                                <Link href="#">
-                                    <a>Cognitive Engagement</a>
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+								<Link href="/feature-details">
+									<a>Integrations all Source for leads</a>
+								</Link>
+							</h3>
+
+							<ul>
+								<p> Auto Integration(Vendors, website,IVR)<br />  API capability to share or received data <br />Upload bulk data in excel sheet format</p>
+							
+							
+							</ul>
+
                             <Link href="#">
                                 <a className="learn-more-btn">
                                 <Icon.PlusCircle /> Learn More
@@ -80,11 +104,20 @@ const WhatWeOffer = () => {
                                 <img src="/images/icon7.png" alt="image" />
                             </div>
                             <h3>
-                                <Link href="#">
-                                    <a>Security & Surveillance</a>
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+								<Link href="/feature-details">
+									<a>Scalable with Pay Per Go</a>
+								</Link>
+							</h3>
+
+							<ul>
+								<li> Pay only for what you use ``Increase or reduce user as you need``</li>
+								
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+							</ul>
                             
                             <Link href="#">
                                 <a className="learn-more-btn">

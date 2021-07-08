@@ -20,10 +20,10 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>IT Professionals</a>
+                                    <a>All Calls Recording</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Record your all incoming & Outgoing Calls from anywhere</p>
                         </div>
                     </div>
 
@@ -34,10 +34,10 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Software Engineers</a>
+                                    <a>Live Location Tracking</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Track your employee real-time and his day route</p>
                         </div>
                     </div>
 
@@ -48,12 +48,54 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Health & Manufacturing</a>
+                                    <a>Field Visit Schedules</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Track & Schedule the visit of your Field Employee</p>
                         </div>
                     </div>
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="single-ml-services-box">
+                            <div className="image">
+                                <img src="/images/services-image/service-image3.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Mini CRM</a>
+                                </Link>
+                            </h3>
+                            <p>Make entry of prospect manually OR excel upload and track the status of each one.</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="single-ml-services-box">
+                            <div className="image">
+                                <img src="/images/services-image/service-image3.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Notification</a>
+                                </Link>
+                            </h3>
+                            <p>Notify your employee for overdue, Followups, new allocated prospect</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="single-ml-services-box">
+                            <div className="image">
+                                <img src="/images/services-image/service-image3.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Dynamic Reports</a>
+                                </Link>
+                            </h3>
+                            <p>Dynamic report of attendance, Prospect status, Call details, Hourly Report & more</p>
+                        </div>
+                    </div>
+
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-ml-services-box">
@@ -62,24 +104,23 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Security & Surveillance</a>
+                                    <a>Communicate via Chat Option</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Chat directly with employee whose going to visit</p>
                         </div>
                     </div>
-
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-ml-services-box">
                             <div className="image">
-                                <img src="/images/services-image/service-image5.png" alt="image" />
+                                <img src="/images/services-image/service-image4.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Automatic Optimization</a>
+                                    <a>Works Offline, as well</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Internet issue ? No worries, our application works offline as well.</p>
                         </div>
                     </div>
 
@@ -90,10 +131,10 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Data Analysts</a>
+                                    <a>Other Software Integrations</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>Easily integrate with your current Software/ CRM /ERP for required features</p>
                         </div>
                     </div>
                 </div>

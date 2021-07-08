@@ -15,49 +15,57 @@ const ServicesArea = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Database /> 1800 Number for Callers
+                                        <Icon.Database /><strong>No Setup Fee</strong>
+                                        <p>Just charged for SMS’s only, No setup fee is demanded.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Globe /> Call attending at 1st ring
+                                        <Icon.Globe /><strong> SMS Scheduling</strong>
+                                        <p>Send them instantly or set up a time and date as needed.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.File /> Distribute Same information to each caller
+                                        <Icon.File /> <strong>DND Filters</strong>
+                                        <p>SMS go to NON-DND Number (Auto Filter)</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.TrendingUp /> Increase your brand image for callers
+                                        <Icon.TrendingUp /> <strong>Sender ID</strong>
+                                        <p>Recipient will get SMS from 6 digit ID (EG. VM-ICICIB</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Folder /> No Hardware cost
+                                        <Icon.Folder /> SMS Validity
+                                        <p>SMS stays in your online account until you use them</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Monitor /> Never loss business leads
+                                        <Icon.Monitor /><strong>Low Price</strong>
+                                        <p>Transparent pricing & billing structure, Pay only as you use</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Mail /> Pay-as-you-grow model
+                                        <Icon.Mail /> <strong>Pay Per Use</strong>
+                                        <p>Our transparent pricing & billing, only pay what you use</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Cloud /> Scale without adding manpower
+                                        <Icon.Cloud /> <strong>Scalability</strong>
+                                        <p>Scale your business without adding manpower</p>
                                     </div>
                                 </div>
                             </div>

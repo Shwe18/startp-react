@@ -373,26 +373,10 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#" activeClassName="active">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Partner With Us <Icon.ChevronDown />
-                                        </a>
-                                    </Link>
-
-                                    <ul className="dropdown-menu">
-                                        <li className="nav-item">
-                                            <Link href="/shop" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Shop</a>
+                                            <Link href="/partner-with-us" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Partner With Us</a>
                                             </Link>
                                         </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/checkout" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Checkout</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </li>
 
                                 <li className="nav-item">
                                     <Link href="/#">
