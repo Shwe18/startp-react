@@ -7,7 +7,6 @@ import AboutUsContent from '@/components/ETS/AboutUsContent';
 import OurServices from '@/components/ETS/OurServices';
 import FunFactsArea from '@/components/Common/FunFactsArea';
 import ETSPricing from '@/components/ETS/ETSPricing';
-//import Features from '@/components/ETS/Features';
 import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
 import Newsletter from '@/components/Common/Newsletter';
 import Footer from "@/components/_App/Footer";

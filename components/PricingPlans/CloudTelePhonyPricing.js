@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const CloudTelephony = () => {
+const CloudTelephonyPricing = () => {
     return (
         <div className="pricing-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
@@ -109,4 +109,4 @@ const CloudTelephony = () => {
     );
 }
 
-export default CloudTelephony;
+export default CloudTelephonyPricing;

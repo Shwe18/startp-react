@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
+import CloudTelephonyPricing from "@/components/PricingPlans/CloudTelePhonyPricing";
+// import SmsPricing from '@/components/PricingPlans/SmsPricing';
+// import DialerPricing from '@/components/PricingPlans/DialerPricing';
 
 class PricingStyleFour extends Component {
 
@@ -27,7 +30,8 @@ class PricingStyleFour extends Component {
                     <div className="section-title">
                         <h2>Our Pricing Plan</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2>Standard plan designed for businesses</h2>
+                        <h4>If plan doesn’t suits you, Call us for Customised Plan on +91-9871045375 </h4>
                     </div>
                     
                     <div className="tab pricing-tab bg-color">
@@ -36,101 +40,104 @@ class PricingStyleFour extends Component {
                                 className="current"
                                 onClick={(e) => this.openTabSection(e, 'tab1')}
                             >
-                                Monthly Plan
+                                Cloud Telephony
                             </li>
                             
                             <li onClick={(e) => this.openTabSection(e, 'tab2')}>
-                                Yearly Plan
+                                SMS
                             </li>
+
+                            <li
+                                className="current"
+                                onClick={(e) => this.openTabSection(e, 'tab3')}
+                            >
+                                Dialer
+                            </li>
+
                         </ul>
 
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="pricing-box">
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table">
                                             <div className="pricing-header">
-                                                <h3>Free</h3>
-                                                <p>Get your business up <br /> and running</p>
+                                                <h5>Startup Plan-Missed Call</h5>
+                                                <h3>Rs. 6000</h3>
+                                                <h6>PerYear</h6>
                                             </div>
-
-                                            <div className="price">
-                                                $0 <span>/m</span>
+                                        
+                                                <div className="pricing-features">
+                                                <ul>
+                                                    <li><i data-feather="check"></i> 500 Calls / Daily</li>
+                                                    <li><i data-feather="check"></i> Missed Call Feature</li>
+                                                    <li><i data-feather="check"></i> SMS Alert</li>
+                                                    <li><i data-feather="check"></i> Number Blacklist</li>
+                                                    <li><i data-feather="check"></i> Online Panel</li>
+                                                    
+                                                </ul>
                                             </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Get Started Free</a>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="signup">
+                                                    <a className="btn btn-primary">START DEMO</a>
                                                 </Link>
                                             </div>
-
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 1000 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
-                                            </ul>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="pricing-box">
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table active-plan">
                                             <div className="pricing-header">
-                                                <h3>Pro</h3>
-                                                <p>Get your business up <br /> and running</p>
+                                                <h5>Startup Plan-IVR Service</h5>
+                                                <h3>Rs. 12000</h3>
+                                                <h6>PerYear</h6>
                                             </div>
-
-                                            <div className="price">
-                                                $149 <span>/m</span>
+                                    
+                                            
+                                            <div className="pricing-features">
+                                                <ul>
+                                                <li><i data-feather="check"></i> 12000 Forwarding Minute</li>
+                                                    <li><i data-feather="check"></i> Welcome Message</li>
+                                                    <li><i data-feather="check"></i> IVR Solution</li>
+                                                    <li><i data-feather="check"></i> Call Recording</li>
+                                                    <li><i data-feather="check"></i> Online Panel</li>
+                                                </ul>
                                             </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Start 3 Days Free Trial</a>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="signup">
+                                                    <a className="btn btn-primary">START DEMO</a>
                                                 </Link>
                                             </div>
-
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 3300 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
-                                            </ul>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="pricing-box">
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table">
                                             <div className="pricing-header">
-                                                <h3>Premium</h3>
-                                                <p>Get your business up <br /> and running</p>
+                                                <h5>Startup Plan-TollFree</h5>
+                                                <h3>Rs. 18000</h3>
+                                                <h6>PerYear</h6>
+                                                
                                             </div>
-
-                                            <div className="price">
-                                                $179 <span>/m</span>
+                                    
+                                            
+                                            <div className="pricing-features">
+                                                <ul>
+                                                    <li><i data-feather="check"></i> 12000 Incoming Minute</li>
+                                                    <li><i data-feather="check"></i> Welcome Message</li>
+                                                    <li><i data-feather="check"></i> IVR Solution</li>
+                                                    <li><i data-feather="check"></i> Call Recording</li>
+                                                    <li><i data-feather="check"></i> Call Rate : 1.5 Per minute</li>
+                                                </ul>
                                             </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Start 6 Days Free Trial</a>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="signup">
+                                                    <a className="btn btn-primary">START DEMO</a>
                                                 </Link>
                                             </div>
-
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 10000 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -138,90 +145,165 @@ class PricingStyleFour extends Component {
 
                             <div id="tab2" className="tabs_item">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
+                                    <h5><strong>Our SMS charges are based on delivery only, non-delivered message will get reveresed within 24 hours..</strong></h5>
+                                    <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div className="pricing-box">
-                                            <div className="pricing-header">
-                                                <h3>Free</h3>
-                                                <p>Get your business up <br /> and running</p>
-                                            </div>
+                                            <h4>Text SMS (Broadcast)</h4>
+                                            <h3>Based on Usage</h3>
+                                            <p>Transactional, Promotional, OTP</p>
+                                       </div>
 
-                                            <div className="price">
-                                                $0 <span>/y</span>
-                                            </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Get Started Free</a>
-                                                </Link>
-                                            </div>
-
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 1000 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
+                                       <div className="pricing-features text-center">
+                                           <ul>
+                                                <Icon.Check /> Advanced Dashboard<br />
+                                                <Icon.Check /> SMS Scheduling<br />
+                                                <Icon.Check /> Customised Messaging<br />
+                                                <Icon.Check /> Multiple Sender ID's<br />
+                                                <Icon.Check /> Real-time Delivery Report<br />
+                                                <Icon.Check /> SMS in Multiple Lenguages<br />
+                                                <Icon.Check /> API Integration<br />
                                             </ul>
+                                        </div>
+
+                                        <div className="pricing-footer text-center">
+                                                <Link href="signup">
+                                                    <a className="btn btn-primary">START DEMO</a>
+                                                </Link>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="pricing-box">
+                                    <div className="col-lg-6 col-md-6 col-sm-6">
+                                            <div className="pricing-box">
+                                                    <h4>Voice SMS (Broadcast)</h4>
+                                                    <h3>Based on Usage</h3>
+                                                    <p>Transactional, Promotional, OTP</p>
+                                            </div>
+
+                                            <div className="pricing-features text-center">
+                                                <ul>
+                                                        <Icon.Check /> Advanced Dashboard<br />
+                                                        <Icon.Check /> Voice Call Scheduling<br />
+                                                        <Icon.Check /> Customised Messaging<br />
+                                                        <Icon.Check /> Text to Speech Or Voice file Upload<br />
+                                                        <Icon.Check /> Real-time Delivery Report<br />
+                                                        <Icon.Check /> SMS in Multiple Lenguages<br />
+                                                        <Icon.Check /> API Integration
+                                                </ul>
+                                            </div>
+
+                                            <div className="pricing-footer text-center">
+                                                    <Link href="signup">
+                                                        <a className="btn btn-primary">START DEMO</a>
+                                                    </Link>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tab3" className="tabs_item">
+                                <div className="row justify-content-center">
+                                    <h5><strong>Dialer helps to manage and increase business for Call Centre</strong></h5>
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table">
                                             <div className="pricing-header">
-                                                <h3>Pro</h3>
-                                                <p>Get your business up <br /> and running</p>
+                                                <h3>Highlights</h3>
+                                                <h6>Subscribe as per Requirement</h6>
+                                                <br />
                                             </div>
-
-                                            <div className="price">
-                                                $249 <span>/y</span>
+                                        
+                                                <div className="pricing-features">
+                                                <ul>
+                                                    <li><i data-feather="check"></i> Hardware</li>
+                                                    <li><i data-feather="check"></i> Integration</li>
+                                                    <li><i data-feather="check"></i> CRM</li>
+                                                    <li><i data-feather="check"></i> Accessability</li>
+                                                    <li><i data-feather="check"></i> Calling Type</li>
+                                                    <li><i data-feather="check"></i> Setup Cost</li>
+                                                    <li><i data-feather="check"></i> Call Recording</li>
+                                                    <li><i data-feather="check"></i> Lead Capture</li>
+                                                    <li><i data-feather="check"></i> Lead distribution</li>
+                                                    <li><i data-feather="check"></i> Re-assignment</li>
+                                                    <li><i data-feather="check"></i> Custom work-flow</li>
+                                                    <li><i data-feather="check"></i> Report</li>
+                                                    <li><i data-feather="check"></i> Task & Reminder</li>
+                                                </ul>
                                             </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Start 3 Days Free Trial</a>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="pricing">
+                                                    <a className="btn btn-primary">More Details</a>
                                                 </Link>
                                             </div>
-
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 3300 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
-                                            </ul>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="pricing-box">
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table active-plan">
                                             <div className="pricing-header">
-                                                <h3>Premium</h3>
-                                                <p>Get your business up <br /> and running</p>
+                                                <h5>BeTyphon</h5>
+                                                <h3>Mobile Dialer</h3>
+                                                <h6>Rs. 1000/Per User</h6>
                                             </div>
-
-                                            <div className="price">
-                                                $279 <span>/y</span>
+                                    
+                                            
+                                            <div className="pricing-features">
+                                                <ul>
+                                                    <li><i data-feather="check"></i> MObile only</li>
+                                                    <li><i data-feather="check"></i> Whatsapp/SMS/Email</li>
+                                                    <li><i data-feather="check"></i> Mobile & Web</li>
+                                                    <li><i data-feather="check"></i> Online - (Cloud Infra)</li>
+                                                    <li><i data-feather="check"></i> Preview Calling</li>
+                                                    <li><i data-feather="check"></i> Pay per Go Model (As Usage)</li>
+                                                    <li><i data-feather="check"></i> On Cloud</li>
+                                                    <li><i data-feather="check"></i> Automatic (API/Email)</li>
+                                                    <li><i data-feather="check"></i> Auto Distribution</li>
+                                                    <li><i data-feather="check"></i> Available</li>
+                                                    <li><i data-feather="check"></i> Available</li>
+                                                    <li><i data-feather="check"></i> Real-time Report</li>
+                                                    <li><i data-feather="check"></i> Automatic</li>
+                                                </ul>
                                             </div>
-
-                                            <div className="buy-btn">
-                                                <Link href="#">
-                                                    <a className="btn btn-primary">Start 6 Days Free Trial</a>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="signup">
+                                                    <a className="btn btn-primary">START DEMO</a>
                                                 </Link>
                                             </div>
+                                        </div>
+                                    </div>
 
-                                            <ul className="pricing-features">
-                                                <li><Icon.Check /> Drag & Drop Builder</li>
-                                                <li><Icon.Check /> Lead Generation & Sales</li>
-                                                <li><Icon.Check /> Boot & Digital Assistants</li>
-                                                <li><Icon.Check /> Customer Service</li>
-                                                <li><Icon.Check /> Up to 10000 Subscribers</li>
-                                                <li><Icon.Check /> Unlimited Broadcasts</li>
-                                                <li><Icon.Check /> Landing Pages & Web Widgets</li>
-                                            </ul>
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="single-pricing-table">
+                                            <div className="pricing-header">
+                                                <h5>Auto DialerPricing</h5>
+                                                <h3>Dialer - On Premises</h3>
+                                                <br />
+                                            </div>
+                                    
+                                            
+                                            <div className="pricing-features">
+                                                <ul>
+                                                    <li><i data-feather="check"></i> Hardware Setup</li>
+                                                    <li><i data-feather="check"></i> Customization - on requirement</li>
+                                                    <li><i data-feather="check"></i> Web CRM</li>
+                                                    <li><i data-feather="check"></i> On Premises - (Intranet)</li>
+                                                    <li><i data-feather="check"></i> Predicitive & Preview Calling</li>
+                                                    <li><i data-feather="check"></i> Minimum - 15 Users Setup</li>
+                                                    <li><i data-feather="check"></i> On Premises</li>
+                                                    <li><i data-feather="check"></i> Customization - on requirement</li>
+                                                    <li><i data-feather="check"></i> Auto Distribution</li>
+                                                    <li><i data-feather="check"></i> Available</li>
+                                                    <li><i data-feather="check"></i> Available</li>
+                                                    <li><i data-feather="check"></i> Real-time Report</li>
+                                                    <li><i data-feather="check"></i> Automatic</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <div className="pricing-footer">
+                                                <Link href="pricing">
+                                                    <a className="btn btn-primary">Contact Us</a>
+                                                </Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -3,7 +3,6 @@ import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/Tollfree/MainBanner";
 import Features from "@/components/Tollfree/Features";
 import ServicesArea from "@/components/Tollfree/ServicesArea";
-import OurServices from "@/components/Tollfree/OurServices";
 import FunFactsArea from "@/components/Common/FunFactsArea";
 import TollfreePricing from "@/components/Tollfree/TollfreePricing";
 import Partner from "@/components/Common/Partner";
@@ -16,7 +15,6 @@ const Tollfree = () => {
             <MainBanner />
             <Features />
             <ServicesArea />
-            <OurServices />
             <FunFactsArea />
             <TollfreePricing />
             <Partner />s
