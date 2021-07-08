@@ -9,27 +9,20 @@ const Services = () => {
                 <div className="section-title">
                     <h2>Services We Can Help You With</h2>
 					<div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 <div className="row justify-content-center">
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon1.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Big Data Analysis</a>
+                                    <a>Online Dashboard</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
                             
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
@@ -37,23 +30,16 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon2.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Robust Analytics</a>
+                                    <a>Professional IVR</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
@@ -61,23 +47,17 @@ const Services = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon3.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Marketing Analytics</a>
+                                    <a>Multilevel IVR</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
+                           
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
@@ -85,23 +65,17 @@ const Services = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon4.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Data Visualization</a>
+                                    <a>API Integration</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
+                           
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
@@ -109,23 +83,197 @@ const Services = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon5.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Securities Research</a>
+                                    <a>Sticky Agent</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
                             
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Multi-User Login</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Live Call & Tracking</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Call recording</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Analytical Report</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Forwarding Activity</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Holiday Mapping</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>SMS Notifications</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Voicemail Facility</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Black Listing Caller Number</a>
+                                </Link>
+                            </h3>
+                            
+
+                            <div className="shape">
+                                <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="single-services-box-item">
+                            <div className="icon">
+                                <img src="/images/bigdata-analytics/icon1.png" alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/service-details">
+                                    <a>Dynamic Call Forwarding</a>
+                                </Link>
+                            </h3>
+                            
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
@@ -133,27 +281,22 @@ const Services = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
                                 <img src="/images/bigdata-analytics/icon6.png" alt="image" />
                             </div>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Data Governance</a>
+                                    <a>Multi User Login</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
-                            <Link href="/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.ArrowRight /> Learn More
-                                </a>
-                            </Link>
 
                             <div className="shape">
                                 <img src="/images/bigdata-analytics/rectangle.png" alt="image" />
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>

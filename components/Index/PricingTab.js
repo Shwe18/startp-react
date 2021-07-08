@@ -26,7 +26,7 @@ const PricingTab = () => {
                 <span className="divider"></span>
                 <Tab className="col-4" tabFor="two">SMS</Tab>
                 <span className="divider"></span>
-                <Tab className="col-4" tabFor="three" className="my-tab">Dialer</Tab>
+                <Tab className="col-4" tabFor="three" className=" col-4 my-tab">Dialer</Tab>
               </TabList>
               <div className="wrapper">
                 <TabPanel tabId="one">

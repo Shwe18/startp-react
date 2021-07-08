@@ -19,8 +19,8 @@ const MissedCallPricing = () => {
                            
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"> Incoming calls(50 Calls/per Day)</li>
-                                    <li className="active"> SMS Alert</li>
+                                    <li className="active"> <strong className="text-primary">Incoming calls(50 Calls/per Day)</strong></li>
+                                    <li className="active"> <strong className="text-primary"> SMS Alert </strong></li>
                                     <li className="active"> CRM Integration</li>
                                     <li className="active"> Number Blacklist</li>
                                     <li className="active"> Email Alert & Report</li>
@@ -45,10 +45,10 @@ const MissedCallPricing = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">Incoming calls(100 Calls/per Day)</li>
-                                    <li className="active"> SMS Alert</li>
-                                    <li className="active"> CRM Integration</li>
-                                    <li className="active"> Number Blacklist</li>
+                                    <li className="active"> <strong className="text-primary">Incoming calls(50 Calls/per Day)</strong></li>
+                                    <li className="active"> <strong className="text-primary"> SMS Alert </strong></li>
+                                    <li className="active"> <strong className="text-primary">CRM Integration</strong></li>
+                                    <li className="active"> <strong className="text-primary">Number Blacklist</strong></li>
                                     <li className="active"> Email Alert & Report</li>
                                     <li className="active"> Customize Sender Id</li>
                                 </ul>
@@ -71,12 +71,12 @@ const MissedCallPricing = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active"> Incoming calls-Unlimited</li>
-                                    <li className="active"> SMS Alert</li>
-                                    <li className="active"> CRM Integration</li>
-                                    <li className="active"> Number Blacklist</li>
-                                    <li className="active"> Email Alert & Report</li>
-                                    <li className="active"> Customize Sender Id</li>
+                                <li className="active"> <strong>Incoming calls(50 Calls/per Day)</strong></li>
+                                    <li className="active"> <strong className="text-primary"> SMS Alert </strong></li>
+                                    <li className="active"> <strong className="text-primary">CRM Integration</strong></li>
+                                    <li className="active"> <strong className="text-primary">Number Blacklist</strong></li>
+                                    <li className="active"> <strong className="text-primary">Email Alert & Report</strong></li>
+                                    <li className="active"> <strong className="text-primary">Customize Sender Id</strong> </li>
                                 </ul>
                             </div>
                             

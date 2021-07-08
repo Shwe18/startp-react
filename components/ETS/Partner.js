@@ -72,15 +72,6 @@ const Partner = () => {
                     <div className="single-ml-partner">
                         <Link href="#">
                             <a target="_blank">
-                                <img src="/images/partner-img/partner-10.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover10.png" alt="image" />
-                            </a>
-                        </Link>
-                    </div>
-        
-                    <div className="single-ml-partner">
-                        <Link href="#">
-                            <a target="_blank">
                                 <img src="/images/partner-img/partner-5.png" alt="image" />
                                 <img src="/images/partner-img/partner-hover5.png" alt="image" />
                             </a>
@@ -96,14 +87,6 @@ const Partner = () => {
                         </Link>
                     </div>
                 
-                    <div className="single-ml-partner">
-                        <Link href="#">
-                            <a target="_blank">
-                                <img src="/images/partner-img/partner-7.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover7.png" alt="image" />
-                            </a>
-                        </Link>
-                    </div>
                 </OwlCarousel> : ''}
             </div>
         </div>
