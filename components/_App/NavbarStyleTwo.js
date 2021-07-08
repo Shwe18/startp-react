@@ -344,22 +344,10 @@ const NavbarStyleTwo = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#" activeClassName="active">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Partner With Us <Icon.ChevronDown />
-                                        </a>
-                                    </Link>
-                                </li>
-
-                                
-
-                                <li className="nav-item">
-                                    <Link href="/contact" activeClassName="active">
-                                        <a onClick={toggleNavbar} className="nav-link">Contact</a>
-                                    </Link>
-                                </li>
-
-                               
+                                            <Link href="/partner-with-us" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Partner With Us</a>
+                                            </Link>
+                                        </li>                                                          
                             </ul>
                         </div>
                     </nav>

@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
-const IndustriesWeServe = () => {
+const Benefits = () => {
     return (
-        <div className="industries-serve-area ptb-80">
-            <div className="container">
-                <div className="section-title">
+        <div className="solutions-area ptb-80 bg-eef6fd">
+        <div className="container">
+            <div className="section-title st-fs-28">
                     <h2>Benefits</h2>
 					<div className="bar"></div>
                   </div>
@@ -115,8 +115,29 @@ const IndustriesWeServe = () => {
             <div className="analytics-shape2">
                 <img src="/images/bigdata-analytics/vector.png" alt="image" />
             </div>
+
+
+               {/* Shape Images */}
+               <div className="shape2 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
+            <div className="shape3">
+                <img src="/images/shape3.svg" alt="shape" />
+            </div>
+            <div className="shape4">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape6 rotateme">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape7">
+                <img src="/images/shape4.svg" alt="shape" />
+            </div>
+            <div className="shape8 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
         </div>
     )
 }
 
-export default IndustriesWeServe;  
+export default Benefits;  

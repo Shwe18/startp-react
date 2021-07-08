@@ -1,15 +1,13 @@
 import React from 'react';
 import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
 import MainBanner from "@/components/CloudTelephony/MainBanner";
-import WhatWeOffer from '@/components/CloudTelephony/WhatWeOffer';
-import AboutUsContent from '@/components/CloudTelephony/AboutUsContent';
+import Benefits from '@/components/CloudTelephony/Benefits';
+import Features from '@/components/CloudTelephony/Features';
 import OurServices from '@/components/CloudTelephony/OurServices';
 import DigitalAgencyFunFacts from '@/components/CloudTelephony/DigitalAgencyFunFacts';
-import Projects from '@/components/CloudTelephony/Projects';
-import PricingStyleThree from '@/components/PricingPlans/PricingStyleThree';
-import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
-import BlogPostStyleTwo from '@/components/Common/BlogPostStyleTwo';
-import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
+import CloudWork from '@/components/CloudTelephony/CloudWork';
+import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
+
 import Footer from "@/components/_App/Footer";
 
 const CloudTelephony = () => {
@@ -17,15 +15,13 @@ const CloudTelephony = () => {
         <>
             <NavbarStyleFive />
             <MainBanner />
-            <WhatWeOffer />
-            <AboutUsContent />
             <OurServices />
+            <Benefits />
+            <Features />
+            <CloudWork />
+            <PartnerStyleTwo />
+           
             <DigitalAgencyFunFacts />
-            <Projects />
-            <PricingStyleThree />
-            <FeedbackStyleThree />
-            <BlogPostStyleTwo />
-            <CTAStyleTwo />
             <Footer />
         </>
     )
