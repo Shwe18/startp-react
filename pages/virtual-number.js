@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarStyleFour from "@/components/_App/NavbarStyleFour";
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
 import MainBanner from '@/components/VirtualNumber/MainBanner';
 import DiscoverArea from '@/components/VirtualNumber/DiscoverArea';
 import Services from '@/components/VirtualNumber/Services';
@@ -12,7 +12,7 @@ import Footer from "@/components/_App/Footer";
 const VirtualNumber = () => {
     return (
         <>
-            <NavbarStyleFour />
+            <NavbarStyleTwo />
             <MainBanner />
             <DiscoverArea />
             <Services />

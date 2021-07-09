@@ -1,18 +1,11 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
-import MainBanner from '@/components/Partnerwithus/MainBanner'; 
-import Partner from "@/components/Common/Partner";
-import CTAStyleTwo from '@/components/PricingPlans/CTAStyleTwo';
-import * as Icon from 'react-feather';
+
  
-const Partner = () => {
+const PartnerWith = () => {
     return (
         <>
-            <Navbar />
-
-            <MainBanner /> 
-            <div className="Service-area ptb-80 pb-50">
+         
+            <div className="Service-area ptb-80 pb-50 discover-area">
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-lg-6 col-md-6">
@@ -26,13 +19,15 @@ const Partner = () => {
                                 <br />
                                 <li>Fixed incentive on sales amount.</li>
                                 <li>Beneficial even Non-Sales person as well</li>
+                                <br />
                             <div className="ptb-80 pb-50">
                                 <h3>Scale & reliability to handle large</h3>
                                 <h3>call volumes</h3>
                             </div>
-                            <div className="ptb-80 pb-50">
-                                <h3>5000+ Satisfied customer in 65</h3>
-                                <h3>Countries</h3>
+                            <hr></hr>
+                            <div className="ptb-20 ">
+                                <h4>5000+ Satisfied customer in 65</h4>
+                                <h4>Countries</h4>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6">
@@ -51,18 +46,20 @@ const Partner = () => {
                                 <li>Add value to your existing and new customers</li>
                             <div className="ptb-80 pb-50">
                                 <h3>Partner Panel</h3>
+                                <br />
+                                <br />
                             </div>
-                            <div className="ptb-80">
-                                <h3>Key Account Manager & Online</h3>
-                                <h3>Online</h3>
+                            <hr />
+                            <div className="ptb-20">
+                                <h4>Key Account Manager & Online</h4>
+                                <h4>Online</h4>
                             </div>
                         </div>
 
                         <div className="faq-contact">
                         <h2>Join Hands Together</h2>
                         <form>
-                        
-                            <div className="row">
+                                <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
                                         <input type="text" placeholder="Name" className="form-control" />
@@ -113,14 +110,41 @@ const Partner = () => {
                     </div>
                         
                     </div>
+                    
                 </div>
+          
             </div>
+
+               {/* Shape Images */}
+			<div className="shape1">
+				<img src="/images/shape1.png" alt="shape"/>
+			</div>
+			<div className="shape2 rotateme">
+				<img src="/images/shape2.svg" alt="shape"/>
+			</div>
+			<div className="shape3">
+				<img src="/images/shape3.svg" alt="shape"/>
+			</div>
+			<div className="shape4">
+				<img src="/images/shape4.svg" alt="shape"/>
+			</div>
+			<div className="shape5">
+				<img src="/images/shape5.png" alt="shape"/>
+			</div>
+			<div className="shape6 rotateme">
+				<img src="/images/shape4.svg" alt="shape"/>
+			</div>
+			<div className="shape7">
+				<img src="/images/shape4.svg" alt="shape"/>
+			</div>
+			<div className="shape8 rotateme">
+				<img src="/images/shape2.svg" alt="shape"/>
+			</div>
+		
            
-            <Partner />
-            <CTAStyleTwo />
-            <Footer />
+    
         </>
     )
 }
 
-export default Partner;
+export default PartnerWith;
