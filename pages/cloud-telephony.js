@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
 import MainBanner from "@/components/CloudTelephony/MainBanner";
 import Benefits from '@/components/CloudTelephony/Benefits';
 import Features from '@/components/CloudTelephony/Features';
@@ -13,7 +13,7 @@ import Footer from "@/components/_App/Footer";
 const CloudTelephony = () => {
     return (
         <>
-            <NavbarStyleFive />
+            <NavbarStyleTwo />
             <MainBanner />
             <OurServices />
             <Benefits />
