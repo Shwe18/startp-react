@@ -3,7 +3,7 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import PricingStyleFour from '@/components/PricingPlans/PricingStyleFour';
-import CloudTelephonyPricing from '@/components/PricingPlans/CloudTelephonyPricing'; 
+import CloudTelephonyPricing from '@/components/CloudTelephony/CloudTelePhonyPricing'; 
  
 const Pricing = () => {
     return (

@@ -5,7 +5,7 @@ import Link from 'next/link';
 const TopFeatures = () => {
     return (
         <div className="boxes-area hosting-boxes-area">
-            <div className="container">
+            <div className="container ptb-80">
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
                         <div className="single-box">
@@ -17,7 +17,16 @@ const TopFeatures = () => {
                                     <a>IVR Services</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+                            <ul>
+                                Professional Image <br />
+                                <br />
+                                Super Advance Alert & Report  <br />
+                                <br />
+                                24/7 Customer Availability <br />
+                                <br />
+                                Simple Online Panel
+                                <br />
+                            </ul>
                         </div>
                     </div>
 
@@ -31,7 +40,16 @@ const TopFeatures = () => {
                                     <a>Virtual Number</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+                            <ul>
+                                Professional IVR<br />
+                                <br />
+                                Call Recording <br />
+                                <br />
+                                Analytical Report<br />
+                                <br />
+                                Forwarding Activity<br />
+                          
+                            </ul>
                         </div>
                     </div>
 
@@ -45,7 +63,12 @@ const TopFeatures = () => {
                                     <a>BeTyphon</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+                            <ul>
+                                Single Dashboard to manage all leads <br />
+                                Call Recording & Advance Reports<br />
+                                Integrations all sources for leads<br />
+                                Scalable with Pay Per Go
+                            </ul>
                         </div>
                     </div>
 
@@ -59,7 +82,16 @@ const TopFeatures = () => {
                                     <a>Cloud Telephony</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+                            <ul>
+                                Online Dashboard<br />
+                                <br />
+                                Multi-level IVR<br />
+                                <br />
+                                API Integration<br />
+                                <br />
+                                Black-listing Caller Number
+                                <br />
+                            </ul>
                         </div>
                     </div>
                 </div>

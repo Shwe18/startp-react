@@ -7,15 +7,13 @@ const Partner = () => {
             <div className="ready-to-talk">
                 <div className="container">
                     <h3>Our Partners</h3>
-                    
-
                 </div>
             </div>
 
             <div className="partner-area partner-section">
                 <div className="container">
 
-                    <div className="partner-inner">
+                    <div className="partner-inner ptb-80">
                         <div className="row justify-content-center">
                         <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">

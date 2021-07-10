@@ -6,8 +6,6 @@ const MainBanner = () => {
         <div className="iot-main-banner">
             <div className="container">
                 <div className="iot-banner-content">
-                    <span><strong>Missed Call Number for your Business</strong></span>
-                    <p>Your customer can placed a missed call to your given number at zero cost and receive a call back immediately. Missed Call Service is easiest way to give your customer updates, Lead Generation, Free Callback to caller, Customer Engagement, Customer Support, Customer Feedback, Application Download, Opinion Poll, OTP/Mobile Number Verification.</p>
                     <h2>We get it! IoT growth is happening</h2>
                     <p>At this point, it may seem like overkill to point out the continued growth bound to happen in the Internet of Things space for the years to come and how it will create new opportunities for companies, both established and new, from a hardware and software perspective.</p>
                     
