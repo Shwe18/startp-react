@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
-import CloudTelephonyPricing from "@/components/PricingPlans/CloudTelePhonyPricing";
+import CloudTelephonyPricing from "@/components/CloudTelephony/CloudTelePhonyPricing";
 // import SmsPricing from '@/components/PricingPlans/SmsPricing';
 // import DialerPricing from '@/components/PricingPlans/DialerPricing';
 

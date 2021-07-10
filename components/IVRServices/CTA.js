@@ -6,13 +6,13 @@ const CTA = () => {
         <div className="cta-area ptb-80">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-7 col-md-6">
+                    <div className="col-lg-8 col-md-8">
                         <div className="cta-content">
-                            <h3>Know more about IVR Solutions, Call on +91-9871045375</h3>
+                            <h5>Know more about IVR Solutions, Call on +91-9871045375</h5>
                         </div>
                     </div>
 
-                    <div className="col-lg-5 col-md-6">
+                    <div className="col-lg-4 col-md-4">
                         <div className="cta-right-content">
                             
 

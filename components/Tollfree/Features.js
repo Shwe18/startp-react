@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Features = () => {
     return (
-        <div className="boxes-area">
+        <div className="boxes-area ptb-80">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-md-6">
