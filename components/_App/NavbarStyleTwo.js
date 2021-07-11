@@ -182,7 +182,7 @@ const NavbarStyleTwo = () => {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/cloud-bsed-call-management-solution" activeClassName="active">
+                                            <Link href="/cloud-based-call-management-solution" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">Cloud Based Call Management Solution</a>
                                             </Link>
                                         </li>

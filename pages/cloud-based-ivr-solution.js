@@ -1,31 +1,29 @@
 import React from 'react';
-import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
-import MainBanner from "@/components/CloudTelephony/MainBanner";
-import WhatWeOffer from '@/components/CloudTelephony/Benefits';
-import AboutUsContent from '@/components/CloudTelephony/AboutUsContent';
-import OurServices from '@/components/CloudTelephony/OurServices';
-import DigitalAgencyFunFacts from '@/components/CloudTelephony/DigitalAgencyFunFacts';
-import Projects from '@/components/CloudTelephony/Projects';
-import PricingStyleThree from '@/components/PricingPlans/PricingStyleThree';
-import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
-import BlogPostStyleTwo from '@/components/Common/BlogPostStyleTwo';
-import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
+import MainBanner from '@/components/VirtualNumber/MainBanner'
+import DiscoverArea from '@/components/CloudBasedIVRSolution/DiscoverArea';
+import Detail from '@/components/CloudBasedIVRSolution/Detail';
+import Services from '@/components/VirtualNumber/Services';
+import NewsletterStyleTwo from '@/components/VirtualNumber/NewsletterStyleTwo';
+import BigdataFunFacts from '@/components/VirtualNumber/BigdataFunFacts';
+import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
+import Benefits from '@/components/VirtualNumber/Benefits';
 import Footer from "@/components/_App/Footer";
+
 
 const CloudBasedIVRSolution = () => {
     return (
         <>
-            <NavbarStyleFive />
+  <NavbarStyleTwo />
+  <NavbarStyleTwo />
             <MainBanner />
-            <WhatWeOffer />
-            <AboutUsContent />
-            <OurServices />
-            <DigitalAgencyFunFacts />
-            <Projects />
-            <PricingStyleThree />
-            <FeedbackStyleThree />
-            <BlogPostStyleTwo />
-            <CTAStyleTwo />
+            <DiscoverArea />
+            <Detail />
+            <Services />
+            <NewsletterStyleTwo />
+            <Benefits />
+            <PartnerStyleTwo />
+            <BigdataFunFacts />
             <Footer />
         </>
     )

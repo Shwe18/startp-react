@@ -15,7 +15,7 @@ const CloudWorks = () => {
 
             <div className="Container-fluid" >
                 <div className ="row " >
-                    <div class ="col-9 p-5">
+                    <div class ="col-8 p-5">
                         <div>
                         <h6 class="px-5">Anyone who calls on your Business Number, will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong>) and post welcome message extension option will come :</h6>
                    
@@ -32,7 +32,7 @@ const CloudWorks = () => {
                         
                     </div>
                     </div>
-                    <div class = "col-lg-3">
+                    <div class = "col-lg-4">
                     
                             <div className="row">
                                 <h4>Try Free – Signup Instant</h4>

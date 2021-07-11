@@ -1,25 +1,27 @@
 import React from 'react';
-import NavbarStyleSix from "@/components/_App/NavbarStyleSix";
-import MainBanner from '@/components/IVRServiceProvider/MainBanner';
-import Projects from '@/components/IVRServiceProvider/Projects';
-import AboutUsContent from '@/components/IVRServiceProvider/AboutUsContent';
-import FeedbackStyleFive from '@/components/Common/FeedbackStyleFive';
-import Partner from '@/components/IVRServiceProvider/Partner';
-import BlogPostStyleThree from '@/components/Common/BlogPostStyleThree';
-import CreativeArea from '@/components/IVRServiceProvider/CreativeArea';
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
+import MainBanner from '@/components/VirtualNumber/MainBanner';
+import DiscoverArea from '@/components/IVRServiceProvider/DiscoverArea';
+import Detail from '@/components/IVRServiceProvider/Detail';
+import Services from '@/components/VirtualNumber/Services';
+import NewsletterStyleTwo from '@/components/VirtualNumber/NewsletterStyleTwo';
+import BigdataFunFacts from '@/components/VirtualNumber/BigdataFunFacts';
+import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
+import Benefits from '@/components/VirtualNumber/Benefits';
 import Footer from "@/components/_App/Footer";
 
 const IVRServiceProvider = () => {
     return (
         <>
-            <NavbarStyleSix />
+            <NavbarStyleTwo />
             <MainBanner />
-            <Projects />
-            <AboutUsContent />
-            <FeedbackStyleFive />
-            <Partner />
-            <BlogPostStyleThree />
-            <CreativeArea />
+            <DiscoverArea />
+            <Detail />
+            <Services />
+            <NewsletterStyleTwo />
+            <Benefits />
+            <PartnerStyleTwo />
+            <BigdataFunFacts />
             <Footer />
         </>
     )
