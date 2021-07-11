@@ -1,31 +1,27 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/InteractiveVoiceResponse/MainBanner';
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
+import MainBanner from '@/components/VirtualNumber/MainBanner'
+import DiscoverArea from '@/components/IVRServiceProvider/DiscoverArea';
+import Detail from '@/components/CloudBasedManagementSystem/Detail';
+import Services from '@/components/VirtualNumber/Services';
+import NewsletterStyleTwo from '@/components/VirtualNumber/NewsletterStyleTwo';
+import BigdataFunFacts from '@/components/VirtualNumber/BigdataFunFacts';
 import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
-import AboutUsContent from '@/components/InteractiveVoiceResponse/AboutUsContent';
-import Services from '@/components/InteractiveVoiceResponse/Services';
-import CTA from '@/components/InteractiveVoiceResponse/CTA';
-import FunFactsArea from '@/components/Common/FunFactsArea';
-import Team from '@/components/InteractiveVoiceResponse/Team';
-import Feedback from '@/components/Common/Feedback';
-import WhyChoose from '@/components/InteractiveVoiceResponse/WhyChoose';
-import BlogPost from '@/components/Common/BlogPost';
+import Benefits from '@/components/VirtualNumber/Benefits';
 import Footer from "@/components/_App/Footer";
 
 const CloudBasedCallManagementSystem = () => {
     return (
         <>
-            <Navbar />
+           <NavbarStyleTwo />
             <MainBanner />
-            <PartnerStyleTwo />
-            <AboutUsContent />
+            <DiscoverArea />
+            <Detail />
             <Services />
-            <CTA />
-            <FunFactsArea />
-            <Team />
-            <Feedback />
-            <WhyChoose />
-            <BlogPost />
+            <NewsletterStyleTwo />
+            <Benefits />
+            <PartnerStyleTwo />
+            <BigdataFunFacts />
             <Footer />
         </>
     )

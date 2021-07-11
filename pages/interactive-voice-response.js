@@ -1,31 +1,27 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/InteractiveVoiceResponse/MainBanner';
+import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
+import MainBanner from "@/components/CloudTelephony/MainBanner";
+import DiscoverArea from '@/components/InteractiveVoiceResponse/DiscoverArea';
+import Detail from '@/components/InteractiveVoiceResponse/Detail';
+import Benefits from '@/components/CloudTelephony/Benefits';
+import Features from '@/components/CloudTelephony/Features';
+import DigitalAgencyFunFacts from '@/components/CloudTelephony/DigitalAgencyFunFacts';
+import CloudWork from '@/components/CloudTelephony/CloudWork';
 import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
-import AboutUsContent from '@/components/InteractiveVoiceResponse/AboutUsContent';
-import Services from '@/components/InteractiveVoiceResponse/Services';
-import CTA from '@/components/InteractiveVoiceResponse/CTA';
-import FunFactsArea from '@/components/Common/FunFactsArea';
-import Team from '@/components/InteractiveVoiceResponse/Team';
-import Feedback from '@/components/Common/Feedback';
-import WhyChoose from '@/components/InteractiveVoiceResponse/WhyChoose';
-import BlogPost from '@/components/Common/BlogPost';
 import Footer from "@/components/_App/Footer";
 
 const PCRepair = () => {
     return (
         <>
-            <Navbar />
+            <NavbarStyleTwo />
             <MainBanner />
+            <DiscoverArea />
+            <Detail />
+            <Benefits />
+            <Features />
+            <CloudWork />
             <PartnerStyleTwo />
-            <AboutUsContent />
-            <Services />
-            <CTA />
-            <FunFactsArea />
-            <Team />
-            <Feedback />
-            <WhyChoose />
-            <BlogPost />
+            <DigitalAgencyFunFacts />
             <Footer />
         </>
     )

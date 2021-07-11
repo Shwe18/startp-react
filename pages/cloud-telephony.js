@@ -7,7 +7,6 @@ import OurServices from '@/components/CloudTelephony/OurServices';
 import DigitalAgencyFunFacts from '@/components/CloudTelephony/DigitalAgencyFunFacts';
 import CloudWork from '@/components/CloudTelephony/CloudWork';
 import PartnerStyleTwo from '@/components/Common/PartnerStyleTwo';
-
 import Footer from "@/components/_App/Footer";
 
 const CloudTelephony = () => {
@@ -20,7 +19,6 @@ const CloudTelephony = () => {
             <Features />
             <CloudWork />
             <PartnerStyleTwo />
-           
             <DigitalAgencyFunFacts />
             <Footer />
         </>

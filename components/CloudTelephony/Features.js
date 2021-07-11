@@ -16,7 +16,7 @@ const Features = () => {
                             <div className="icon">
                                 <i className='bx bx-buildings'></i>
                             </div>
-                            Online 
+                            Online dashboard
                             <br />
                             <Link href="/service-details">
                                 <a className="link-btn"></a>
