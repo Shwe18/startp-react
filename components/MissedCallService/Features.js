@@ -1,58 +1,108 @@
 import React from 'react';
+import * as Icon from 'react-feather';
 import Link from 'next/link';
 
 const Features = () => {
     return (
-        <>
-            <div className="iot-features-area ptb-80 bg-f7fafd">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 iot-features-content">
-                            <h3>App Development for Connected Devices</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                            
-                            <Link href="#">
-                                <a className="btn btn-primary">Explore More</a>
-                            </Link>
-                        </div>
+        <div className="boxes-area ptb-80">
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-3 col-md-6">
+						<div className="single-box">
+							<div className="icon">
+                                <Icon.Server />
+							</div>
 
-                        <div className="col-lg-6 iot-features-image">
-                            <img 
-                                src='/images/iot-features-image/iot-feature-image1.png'
-                                className="animate__animated animate__fadeInUp animate__delay-0.6s" 
-                                alt="image" 
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
+							<h3>
+								<Link href="/feature-details">
+								<a>Professional Image</a>
+								</Link>
+							</h3>
 
-            <div className="iot-features-area ptb-80">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 iot-features-image">
-                            <img 
-                                src='/images/iot-features-image/iot-feature-image2.png'
-                                className="animate__animated animate__fadeInUp animate__delay-0.6s" 
-                                alt="image"
-                            />
-                        </div>
-                        
-                        <div className="col-lg-6 iot-features-content">
-                            <h3>How Can Your City Use IoT Technology?</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
+							<ul>
+								 Call disconnected after ring<br />
+								 Thankyou SMS to caller<br />
+								 <br />
+							     <br />
+								 <br />
+								 <br />
+							</ul>
+						</div>
+					</div>
 
-                            <Link href="#">
-                                <a className="btn btn-primary">Explore More</a>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+					<div className="col-lg-3 col-md-6">
+						<div className="single-box bg-f78acb">
+							<div className="icon">
+                                <Icon.Code />
+							</div>
+
+							<h3>
+								<Link href="/feature-details">
+								<a>Beneficial Usage</a>
+								</Link>
+							</h3>
+
+							<ul>
+								OTP/ Mobile Verification<br />
+							    Application Download<br />
+								Opinion Poll<br />
+								Customer Engagaement<br />								
+							</ul>
+						</div>
+					</div>
+
+					<div className="col-lg-3 col-md-6">
+						<div className="single-box bg-c679e3">
+							<div className="icon">
+                                <Icon.Users />
+							</div>
+
+							<h3>
+								<Link href="/feature-details">
+								<a>24/7 Multiple Connectivity</a>
+								
+								</Link>
+							</h3>
+
+							<ul>
+								Always Connected,<br />
+							    Multiple Call Connected on Single Number,<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+							</ul>
+						</div>
+					</div>
+
+					<div className="col-lg-3 col-md-6">
+						<div className="single-box bg-eb6b3d">
+							<div className="icon">
+                                <Icon.GitBranch />
+							</div>
+
+							<h3>
+								<Link href="/feature-details">
+								<a>Simple Online Panel</a>
+								</Link>
+							</h3>
+
+							<ul>
+								Easy Manageable<br />
+								Real-time analysis<br />
+								Call Logs<br />
+								<br />
+								<br />
+								<br />
+								<br />
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    )
 }
 
 export default Features;
