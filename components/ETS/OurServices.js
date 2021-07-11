@@ -6,10 +6,8 @@ const OurServices = () => {
         <div className="ml-services-area ptb-80">
             <div className="container">
                 <div className="section-title">
-                    <span className="sub-title">Our Solutions</span>
-                    <h2>Our Services</h2>
-                    <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <span className="sub-title">Our Featutres</span>
+                    <h2>Features of ETS – Employee Tracking Solution</h2>
                 </div>
 
                 <div className="row justify-content-center">

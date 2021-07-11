@@ -26,20 +26,15 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Leads All in One place</li>
-								<li> Add or Remove leads easily </li>
-								<li> Search leads by any column </li>
-								<li> Manage leads distribution</li>
+								Leads All in One place<br />
+								Add or Remove leads easily<br />
+								Search leads by any column<br />
+								Manage leads distribution<br />
 								<br />
 								<br />
-								<br />
+                                <br />
 							</ul>
 
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
 
@@ -55,21 +50,16 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Real-time Reports</li>
-								<li> Call history of dialouts</li>
-								<li> Communication Reports</li>
-								<li> Customized Report</li>
-								<li> Call Recording </li>
+								Real-time Reports<br />
+								Call history of dialouts<br />
+								Communication Reports<br />
+								Customized Report<br />
+								Call Recording <br />
 								<br />
-								<br />
+                                <br />
 
 							</ul>
                             
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
 
@@ -85,16 +75,12 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<p> Auto Integration(Vendors, website,IVR)<br />  API capability to share or received data <br />Upload bulk data in excel sheet format</p>
-							
+								<p> Auto Integration(Vendors, website,IVR)<br />  
+                                API capability to share or received data <br />
+                                Upload bulk data in excel sheet format</p>					
 							
 							</ul>
 
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
 
@@ -110,20 +96,14 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Pay only for what you use ``Increase or reduce user as you need``</li>
-								
+								Pay only for what you use ``Increase or reduce user as you need``
+								<br />
 								<br />
 								<br />
 								<br />
 								<br />
 								<br />
 							</ul>
-                            
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                    <i data-feather="plus-circle"></i> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
                 </div>
