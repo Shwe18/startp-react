@@ -15,14 +15,23 @@ const AboutUsContent = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-about-content">
                             <span className="sub-title">About Us</span>
-                            <h2>Engaging New Audiences Through Smart Approach</h2>
+                            <h2>Employee Tracking Solution</h2>
                             <div className="bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.Donec vitae sapien ut libero venenatis faucibus tempus.</p>
-
-                            <Link href="/about-1">
-                                <a className="btn btn-secondary">Discover More</a>
-                            </Link>
+                                <div className="row">
+                                    <div className="col-lg-3">
+                                        <Link href="/about-1">
+                                            <a className="btn btn-danger">LOGIN</a>
+                                        </Link> 
+                                    </div>
+                                    <div className="col-lg-3 col-md-3">
+                                        <Link href="/about-1">
+                                            <a className="btn btn-danger">FREE TRIAL</a>
+                                        </Link>
+                                    </div>
+                            </div>
+                           <p><strong><Link href=""><a>Employee Tracking Solution </a></Link></strong> helps to manage your employee by real-time tracking on day activities like attendance, <strong>calls recording,</strong> day visits, GPS Location, Talk-time, Prospect contacted and much more. It provides actionable data driven insights who helps to improve and execute the team in your tele calling and field operations. Its effective <strong>Call Recoding Solution</strong> on mobile.</p>
+                           <p><strong>Employee Tracking Solution</strong> is a SAAS (Software as a service) you only need to pay only charges against what you use. It’s a very simple mobile application which connected to Web App. for tracking and reporting at a glance. Manager can assign, schedule and reschedule the tasks as per employees.</p>
+                            
                         </div>
                     </div>
                 </div>
