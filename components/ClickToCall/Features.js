@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Features = () => {
     return (
-        <div className="boxes-area">
+        <div className="boxes-area ptb-80">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-md-6">
@@ -15,11 +15,16 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Zero Configuration</a>
+									<a className="text-center">Professional Image</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								An ideal facility from the organisation to facilitate customers to get in touch easily <br />
+								Customisable call process<br />
+							    <br />
+							    
+							</ul>
 						</div>
 					</div>
 
@@ -31,11 +36,16 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Code Security</a>
+									<a className="text-center">Super Advance Alert & Report</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								Integrate with Website, Application Or CRM<br />
+								Calls logs & Call recording to be used for in-depth analysis<br />
+								Real time analysis<br />
+								
+							</ul>
 						</div>
 					</div>
 
@@ -47,11 +57,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Team Management</a>
+									<a className="text-center">24/7 Customer Availability</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								Intelligent call routing<br />
+								Multiple calls connectivity in backend<br />
+								Office timing Setup<br />
+								<br />
+								<br />
+							</ul>
 						</div>
 					</div>
 
@@ -63,11 +79,20 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Access Controlled</a>
+									<a className="text-center">Simple Online Panel</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								Easy Manageable<br />
+								Multiple agent log in<br />
+								Easily installed<br />
+								<br />
+								<br />
+								<br />
+							
+							
+							</ul>
 						</div>
 					</div>
 				</div>

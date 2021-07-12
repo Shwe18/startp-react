@@ -9,57 +9,56 @@ const ServicesArea = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 col-md-12 services-content">
                             <div className="section-title">
-                                <h2>Cloud Hosting Services</h2>
-                                <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h2>Benefits</h2>
                             </div>
 
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Database /> Cloud databases
+                                        <Icon.Database /> One Number for Callers
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Globe /> Website hosting
+                                        <Icon.Globe /> Call attending at 1st ring
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.File /> File storage
+                                        <Icon.File /> Distribute Same information to each caller
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.TrendingUp /> Forex trading
+                                        <Icon.TrendingUp /> Increase your brand image for callers
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Folder /> File backups
+                                        <Icon.Folder /> No Hardware cost
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Monitor /> Remote desktop
+                                        <Icon.Monitor /> Never loss business leads
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Mail /> Email servers
+                                        <Icon.Mail /> Pay-as-you-grow model
+
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Cloud /> Hybrid cloud
+                                        <Icon.Cloud /> Scale without adding manpower
                                     </div>
                                 </div>
                             </div>
@@ -157,133 +156,6 @@ const ServicesArea = () => {
                                 className="animate__animated animate__fadeInUp animate__delay-0.2s" 
                                 alt="main-pic"
                             />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="services-area ptb-80">
-                <div className="container">
-                    <div className="row h-100 justify-content-center align-items-center">
-                        <div className="col-lg-6 col-md-12 services-left-image">
-                            <img 
-                                src="/images/services-left-image/big-monitor.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="big-monitor"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/creative.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="creative"
-                            />
-    
-                            <img 
-                                src="/images/services-left-image/developer.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="developer"
-                            />
-                    
-                            <img 
-                                src="/images/services-left-image/flower-top.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="flower-top"
-                            />
-        
-                            <img 
-                                src="/images/services-left-image/small-monitor.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="small-monitor"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/small-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="small-top"
-                            />
-                
-                            <img 
-                                src="/images/services-left-image/table.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="table"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/target.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="target"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-           
-                            <img 
-                                src="/images/services-left-image/service-left-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            />
-                        </div>
-
-                        <div className="col-lg-6 col-md-12 services-content">
-                            <div className="section-title">
-                                <h2>Design & Development</h2>
-                                <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Layout /> Responsive design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> React web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> Android apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> Laravel web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> iOS apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Percent /> UX/UI design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.ShoppingCart /> E-commerce development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.CheckCircle /> Print ready design
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -163,125 +163,18 @@ const ServicesArea = () => {
             <div className="services-area ptb-80">
                 <div className="container">
                     <div className="row h-100 justify-content-center align-items-center">
-                        <div className="col-lg-6 col-md-12 services-left-image">
-                            <img 
-                                src="/images/services-left-image/big-monitor.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="big-monitor"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/creative.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="creative"
-                            />
-    
-                            <img 
-                                src="/images/services-left-image/developer.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="developer"
-                            />
-                    
-                            <img 
-                                src="/images/services-left-image/flower-top.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="flower-top"
-                            />
-        
-                            <img 
-                                src="/images/services-left-image/small-monitor.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="small-monitor"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/small-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="small-top"
-                            />
-                
-                            <img 
-                                src="/images/services-left-image/table.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="table"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/target.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="target"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-           
-                            <img 
-                                src="/images/services-left-image/service-left-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            />
-                        </div>
-
-                        <div className="col-lg-6 col-md-12 services-content">
-                            <div className="section-title">
-                                <h2>Design & Development</h2>
-                                <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Layout /> Responsive design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> React web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> Android apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> Laravel web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> iOS apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Percent /> UX/UI design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.ShoppingCart /> E-commerce development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.CheckCircle /> Print ready design
-                                    </div>
-                                </div>
-                            </div>
+                        <h6 className="text-center"><strong>Connect your Website Visitor thru Click2Call Service</strong></h6>
+                        <br />
+                        <br />
+                        <p>An instant calling widget, strategically placed on your website to help you get in touch with leads while they’re looking you up. With Click-To-Call Solution. You can connect with leads, right away, to increase your conversion time. As soon a visitor submits his number we bridge a call between your agent and the visitor. Web-visitor will get call in India or International across the globe. These calls are free of cost to your potential customers. :</p>
+                        <br />
+                        <br />
+                        <div className="text-center">
+                            <p>Easily Installed   II   Optimize Productivity   II   Never miss a website visitor   II   Call is FREE of cost for them !</p>
+                            <br />
+                            <p>Integrate with Website, Application Or CRM  II   Customizable call process  II   Track & Record of each call</p>
+                            <br />
+                            <p>Instant Contact to suitable person  II   Call Impusiveness which work as Charm “Call Us Free”</p>
                         </div>
                     </div>
                 </div>

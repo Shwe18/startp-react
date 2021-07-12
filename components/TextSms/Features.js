@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Features = () => {
     return (
-        <div className="boxes-area">
+        <div className="boxes-area ptb-80">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-md-6">
@@ -21,8 +21,8 @@ const Features = () => {
 
                           
 							<ul>
-								<li> Manage your customers or contacts in your panel address book.  </li>
-								<li> Messages can be scheduled as per requirements</li>
+								Manage your customers or contacts in your panel address book.  <br />
+								Messages can be scheduled as per requirements
 								<br />
 								<br />
 							
@@ -45,7 +45,7 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> Real time reports downloading in excel format is available with the panel.</li>
+								Real time reports downloading in excel format is available with the panel.
 								<br />
 								<br />
 								<br />
@@ -68,7 +68,7 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> SMS can be auto customized, which can pick any cloum from your data (CRM, Data file etc)</li>
+								SMS can be auto customized, which can pick any cloum from your data (CRM, Data file etc)
 								<br />
 								<br />
 								<br />
@@ -89,8 +89,8 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li>  Easy to use our control panel with friendly User Interface (UI)</li>
-								<li>  Our web based control panel is fully featured</li>
+								Easy to use our control panel with friendly User Interface (UI)<br />
+								Our web based control panel is fully featured
 								<br />
 								<br />
                                 </ul>
