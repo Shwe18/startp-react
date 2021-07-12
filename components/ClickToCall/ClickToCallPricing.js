@@ -6,7 +6,7 @@ const ClickToCallPricing = () => {
         <div className="pricing-area pt-80 pb-50 bg-f9f6f6">
             <div className="container">
                 <div className="section-title">
-                    <h2>Price</h2>
+                    <h2>Pricing</h2>
                     <div className="bar"></div>
                     
                 </div>

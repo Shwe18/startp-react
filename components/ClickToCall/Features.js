@@ -15,20 +15,18 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Data Management</a>
+									<a className="text-center">Professional Image</a>
 								</Link>
 							</h3>
 
-                          
 							<ul>
-								Manage your customers or contacts in your panel address book.  <br />
-								Messages can be scheduled as per requirements
-								<br />
-								<br />
+
 							
-								
+								An ideal facility from the organisation to facilitate customers to get in touch easily <br />
+								Customisable call process<br />
+							    <br />
+							    
 							</ul>
-                               
 						</div>
 					</div>
 
@@ -40,16 +38,14 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-								<a>Super Advance Report</a>
+									<a className="text-center">Super Advance Alert & Report</a>
 								</Link>
 							</h3>
 
 							<ul>
-								Real time reports downloading in excel format is available with the panel.
-								<br />
-								<br />
-								<br />
-								<br />
+								Integrate with Website, Application Or CRM<br />
+								Calls logs & Call recording to be used for in-depth analysis<br />
+								Real time analysis<br />
 								
 							</ul>
 						</div>
@@ -63,13 +59,14 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-                                <a>Customization</a>
+									<a className="text-center">24/7 Customer Availability</a>
 								</Link>
 							</h3>
 
 							<ul>
-								SMS can be auto customized, which can pick any cloum from your data (CRM, Data file etc)
-								<br />
+								Intelligent call routing<br />
+								Multiple calls connectivity in backend<br />
+								Office timing Setup<br />
 								<br />
 								<br />
 							</ul>
@@ -84,16 +81,20 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-                                <a>Simple Online Panel</a>
+									<a className="text-center">Simple Online Panel</a>
 								</Link>
 							</h3>
 
 							<ul>
-								Easy to use our control panel with friendly User Interface (UI)<br />
-								Our web based control panel is fully featured
+								Easy Manageable<br />
+								Multiple agent log in<br />
+								Easily installed<br />
 								<br />
 								<br />
-                                </ul>
+								<br />
+							
+							
+							</ul>
 						</div>
 					</div>
 				</div>

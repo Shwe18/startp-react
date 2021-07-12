@@ -15,13 +15,13 @@ const ServicesArea = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Database /> Easy to connect
+                                        <Icon.Database /> One Number for Callers
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Globe /> Privacy for Both Parties
+                                        <Icon.Globe /> Call attending at 1st ring
                                     </div>
                                 </div>
 
@@ -33,7 +33,7 @@ const ServicesArea = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.TrendingUp /> Professional View
+                                        <Icon.TrendingUp /> Increase your brand image for callers
                                     </div>
                                 </div>
 
@@ -45,13 +45,14 @@ const ServicesArea = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Monitor /> Never loss Web Enquiry
+                                        <Icon.Monitor /> Never loss business leads
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
                                         <Icon.Mail /> Pay-as-you-grow model
+
                                     </div>
                                 </div>
 
@@ -155,26 +156,6 @@ const ServicesArea = () => {
                                 className="animate__animated animate__fadeInUp animate__delay-0.2s" 
                                 alt="main-pic"
                             />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="services-area ptb-80">
-                <div className="container">
-                    <div className="row h-100 justify-content-center align-items-center">
-                        <h6 className="text-center"><strong>Connect your Website Visitor thru Click2Call Service</strong></h6>
-                        <br />
-                        <br />
-                        <p>An instant calling widget, strategically placed on your website to help you get in touch with leads while they’re looking you up. With Click-To-Call Solution. You can connect with leads, right away, to increase your conversion time. As soon a visitor submits his number we bridge a call between your agent and the visitor. Web-visitor will get call in India or International across the globe. These calls are free of cost to your potential customers. :</p>
-                        <br />
-                        <br />
-                        <div className="text-center">
-                            <p>Easily Installed   II   Optimize Productivity   II   Never miss a website visitor   II   Call is FREE of cost for them !</p>
-                            <br />
-                            <p>Integrate with Website, Application Or CRM  II   Customizable call process  II   Track & Record of each call</p>
-                            <br />
-                            <p>Instant Contact to suitable person  II   Call Impusiveness which work as Charm “Call Us Free”</p>
                         </div>
                     </div>
                 </div>

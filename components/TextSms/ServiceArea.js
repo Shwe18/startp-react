@@ -170,126 +170,36 @@ const ServicesArea = () => {
 
             <div className="services-area ptb-80">
                 <div className="container">
-                    <div className="row h-100 justify-content-center align-items-center">
-                        <div className="col-lg-6 col-md-12 services-left-image">
-                            <img 
-                                src="/images/services-left-image/big-monitor.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="big-monitor"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/creative.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="creative"
-                            />
-    
-                            <img 
-                                src="/images/services-left-image/developer.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="developer"
-                            />
-                    
-                            <img 
-                                src="/images/services-left-image/flower-top.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="flower-top"
-                            />
-        
-                            <img 
-                                src="/images/services-left-image/small-monitor.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="small-monitor"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/small-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="small-top"
-                            />
-                
-                            <img 
-                                src="/images/services-left-image/table.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="table"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/target.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="target"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-           
-                            <img 
-                                src="/images/services-left-image/service-left-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            />
-                        </div>
-
-                        <div className="col-lg-6 col-md-12 services-content">
+                    <div className="row h-100">
+                        <div className="col-lg-12 col-md-12">
                             <div className="section-title">
-                                <h2>Design & Development</h2>
-                                <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h2><strong>Promote your business through SMS Campaigns</strong></h2>
                             </div>
 
                             <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Layout /> Responsive design
-                                    </div>
+                                <div className="col-lg-4">
+                                    <h4>Promotional SMS :-</h4>
+                                    <br />
+                                    <p>Bulk SMS which is used for marketing is called Promotional SMS. These SMSs are sent out with the core objective of promoting your products and services. Using promotional bulk SMS a company can create awareness about their brand, their products or services, run marketing campaigns with a single click of a mouse.</p>
                                 </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> React web development
-                                    </div>
+                                <div className="col-lg-4">
+                                    <h4>Transactional SMS :-</h4>
+                                     <br />
+                                    <p>Bulk SMS which are sent to the current base of customers to give them important information that is necessary for using a company’s products or services are called Transactional SMS. The key reason of sending transactional SMS is to keep customers informed. Such messages can be sent to both DND & Non-DND Numbers through a 6 digit sender ID.</p>               
                                 </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> Android apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> Laravel web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> iOS apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Percent /> UX/UI design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.ShoppingCart /> E-commerce development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.CheckCircle /> Print ready design
-                                    </div>
+                                <div className="col-lg-4">
+                                        <h4>OTP / Verification SMS :-</h4>
+                                        <br />
+                                        <p>As the name suggests Verification SMS are sent out at the time when a customer is signing up to a company’s services or making an account with them or a current customer wants to revive some information. OTP stands for ‘One Time Password’. These messages are quick actions on the part of the company to help their customers with their information, verification and authentication purposes.</p>
                                 </div>
                             </div>
+                            <br >
+                            </br>
+                            <h2 className="text-center">How to send SMS</h2>
+                            <p className="px-5">SMS Terminal – SMS can be sent through the admin panel provided by the Service Provider-TECHMET  (System will send the SMS to all the numbers that you have uploaded and you can send a simple broadcast)</p>
+                            <p className="px-5">API – You can integrate through API provided sms can be sent.</p>
+
+                            <p>High capacity system is capable of sending millions of SMS simultaneously. <strong>(This also depends on   server load and interconnect traffic load between various telephone exchange/operators)</strong></p>
                         </div>
                     </div>
                 </div>

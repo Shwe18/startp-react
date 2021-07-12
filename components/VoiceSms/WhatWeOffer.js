@@ -25,11 +25,11 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Professional company welcome message</li>
-								<li> Multi Level IVR</li>
-								<li> Call transfer as per language preference</li>
-							    <li> Onhold Music</li>
-								<li> Voicemail,Sticky</li>
+								Professional company welcome message<br />
+								Multi Level IVR<br />
+								Call transfer as per language preference<br />
+							    Onhold Music<br />
+								Voicemail,Sticky<br />
 								
 								<br />
 							</ul>
@@ -48,11 +48,11 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-							    <li> Call Recording</li>
-							    <li> Call logs</li>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts, Caller Number blocking,</li>
-								<li> Real time analysis</li>
+							    Call Recording<br />
+							    Call logs<br />
+								2 way SMS Notification<br />
+								Email alerts, Caller Number blocking,<br />
+								Real time analysis<br />
 								<br />
 							</ul>
                         </div>
@@ -70,11 +70,12 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Always Connected</li>
-							    <li> Multiple Call Connected on Single Number</li>
-								<li> Intelligent Call Routing</li>
-								<li> Office timing Setup</li>
+								Always Connected<br />
+							    Multiple Call Connected on Single Number<br />
+								Intelligent Call Routing<br />
+								Office timing Setup
 								<br />
+                                <br />
                                 <br />
                                 <br />
 							</ul>
@@ -93,12 +94,13 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+								Easy Manageable<br />
+								Multi Agent login
 								<br />
 								<br />
 								<br />
 								<br />
+                                <br />
                                 <br />
 								<br />
 							</ul>

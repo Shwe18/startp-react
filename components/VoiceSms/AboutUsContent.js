@@ -19,9 +19,6 @@ const AboutUsContent = () => {
                             <div className="bar"></div>
                             <p>Voice SMS are pre-recorded voice messages to a mobile or landline networks across the country. You can send that includes a message (usually 60 seconds or less) that the other person can hear on the call. Its completely automated process hence no operators or dialer require to prcess the calls. This facility allows businesses to enter their potential market by reaching target audience. Grow your business with cost effective service and user-friendly interface</p>
 
-                            <Link href="/contact">
-                                <a className="btn btn-secondary">Discover More</a>
-                            </Link>
                         </div>
                     </div>
                 </div>
