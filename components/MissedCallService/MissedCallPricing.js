@@ -25,6 +25,7 @@ const MissedCallPricing = () => {
                                     <li className="active"> Number Blacklist</li>
                                     <li className="active"> Email Alert & Report</li>
                                     <li className="active"> Customize Sender Id</li>
+                                    <br />
                                 </ul>
                             </div>
                             

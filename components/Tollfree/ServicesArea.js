@@ -227,61 +227,17 @@ const ServicesArea = () => {
                         </div>
 
                         <div className="col-lg-6 col-md-12 services-content">
-                            <div className="section-title">
-                                <h2>Design & Development</h2>
-                                <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Layout /> Responsive design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> React web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> Android apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Code /> Laravel web development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Smartphone /> iOS apps development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Percent /> UX/UI design
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.ShoppingCart /> E-commerce development
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.CheckCircle /> Print ready design
-                                    </div>
-                                </div>
-                            </div>
+                            <h5><strong>How to Tollfree Services Actually Works</strong></h5>
+                            <p>Anyone who calls on your Tollfree Number (1800 XXX XXXX) will first hear a Company welcome message (Welcome to XYZ Company Limited, We offers the special products and services) and post welcome message ivr extension option will come :</p>
+                            <ul className ="px-5 m-5 display-7">
+                                <li><h6>Press 1 for Sales Department</h6></li>
+                                <li><h6>Press 2 for HR Department</h6></li>
+                                <li><h6>Press 3 for Marketing Department</h6></li>
+                                <li><h6>Press 5 for Accounts Department</h6></li>
+                                <li><h6>Press 9 for customer care</h6></li>
+                            </ul>
+                            <p>Based upon the extension option selected by caller, Incoming call will be automatically routed to any mobile or land-line phone mapped to that extension and agent start speaking with customer.</p>
+                            <p>And post call completed, System will automatically send sms on caller number with your customer sender ID,<strong>Example :  VM-ICICIB, HP-TECHMT)</strong></p>
                         </div>
                     </div>
                 </div>

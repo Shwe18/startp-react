@@ -15,7 +15,7 @@ const ETSPricing = () => {
                             <div className="pricing-header">
                             <h4>Trial</h4>
                                 <h1>Free</h1>
-                                <h3> User Only</h3>
+                                <h3>1 User Only</h3>
                             </div>
                            
                             <div className="pricing-features">
@@ -50,7 +50,7 @@ const ETSPricing = () => {
                             <div className="pricing-header">
                                 <h4>Startup Plan</h4>
                                 <h1>Rs. 5000</h1>
-                                <h3>5Users/Monthly</h3>
+                                <h3>5 Users/Monthly</h3>
                             </div>
                             
                             <div className="pricing-features">
