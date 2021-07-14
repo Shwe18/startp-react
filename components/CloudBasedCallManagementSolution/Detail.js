@@ -14,26 +14,17 @@ const Detail = () => {
                             <h5 >Grow your business with Cloud based Call Management Solution:</h5><br />
                             <h6>Cloud based Call Management Solution enables interaction between a caller and a computer via telephone. Call will get connected to desire person/department anywhere.It builts a trust factor in the mind of the prospects, so the pick up/ conversion rates will be directly increased. Techmet offers Cloud based Call Management Solution innovative reporting system for small, medium and enterprises business in india. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud based Call Management Solution.</h6>									
                         </div>
-                      
-                       
+                        
                     <div className="col-6">
                       <div className="col-1 "></div>
                          <div className="row py-2 ">
-
-                         
                             <div className="py-4"><img src="" /></div>
-                            
-                           
-              
                           </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-           
-                </div>
+            </div>
             </div>
 
             <div className="analytics-shape1">
