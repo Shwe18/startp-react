@@ -15,8 +15,7 @@ const DiscoverArea = () => {
                             <h3>Thousands of businesses reaping huge benefits from <strong>Virtual Number</strong> services</h3><br />
                             <h5>Grow your business with Virtual Number :</h5><br />
                             <h6>Virtual Number helps to manage business without moving from your seat. Calls can be forwarded to personal mobile phone so you manage your business anytime, anywhere. It enables interaction between a caller and a computer via telephone. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</h6>									
-                        </div>
-                      
+                        </div>   
                        
                     <div className="col-6">
                       <div className="col-1 "></div>

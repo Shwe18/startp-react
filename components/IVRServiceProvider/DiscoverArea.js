@@ -36,9 +36,6 @@ const DiscoverArea = () => {
                     </div>
                 
             </div>
-
-
-           
                 </div>
             </div>
 

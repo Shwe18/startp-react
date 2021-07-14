@@ -12,7 +12,6 @@ const DiscoverArea = () => {
                            <h1>Welcome To Techmet</h1>
                         </div>
                       
-                       
                     <div className="col-6">
                       <div className="col-1 "></div>
                          <div className="row ">

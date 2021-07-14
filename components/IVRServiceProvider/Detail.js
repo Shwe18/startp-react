@@ -22,9 +22,6 @@ const Detail = () => {
 
                          
                             <div className="py-4"><img src="" /></div>
-                            
-                           
-              
                           </div>
                         </div>
                     </div>
