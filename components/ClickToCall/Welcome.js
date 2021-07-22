@@ -1,12 +1,58 @@
 import React from 'react';
+import Link from 'next/link'
 
  const Welcome = () => {
      return(
         <>
+                   <div className="container fluid">
+                <div className="content">
+                    <div className="row">      
+                        <div className="col-lg-6">   
+                            <h1 className ="py-3 text-success">Welcome To Techmet</h1>
+                        </div>
+                      
+                       
+                    <div className="col-6">
+                      <div className="col-1 "></div>
+                         <div className="row py-2 ">
+                             <div class="btn-group">
+                                   
+                                   <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-primary">Pricing</a>
+                                       </Link>
+                                   </div>
+
+                                   <div className="col-1"></div>
+                                   <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-primary px-5">FAQ</a>
+                                       </Link>
+                                   </div>
+
+                                       <div className="col-1"></div>
+                                   <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-primary px-5">Login</a>
+                                       </Link>
+                                   </div>
+
+                                  <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-danger">FreeTrial</a>
+                                       </Link>
+                                    </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="services-area bg-f7fafd">
                 <div className="container ptb-80">
 
-                   <h5 className="text-center">Connect your Website Visitor thru Click2Call Service</h5>
+                   <h5 className="text-center"><strong>Connect your Website Visitor thru Click2Call Service</strong></h5>
                    <br />
                    <p>Click2Call Service stands to make it easier for your web visitors to just click and connect with you instantly over telephone. This technology enables interaction between a caller and a computer via the telephone. Callers click on the website ‘connect’ button and call will be connected to the desired person or department anywhere.</p>
                    <br />
