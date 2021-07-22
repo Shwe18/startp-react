@@ -2,13 +2,7 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemPanel,
-    AccordionItemButton
-} from 'react-accessible-accordion';
+
  
 const BestIVRServiceProvider = () => {
     return (
@@ -32,7 +26,11 @@ const BestIVRServiceProvider = () => {
                             <div className="features-details-desc">
                                 <h3>Best IVR Service Provider</h3>
                                 <br />
-                                <p>TechMet’s Smart IVRS is a hosted Interactive Voice Response System that is configured through a Virtual Number to automate business communication. All business calls that are hit to the Virtual Number, segregates and routes callers to specific departments with the help of DTMF inputs as selected appropriately to optimize communication efficiency. Multi-level IVR service with unlimited prompts, best to provide a personalized experience to the customers when they reach on the business number. TechMet is the Best IVRS Service Provider in India who facilitates the customizations and enables the unique features of communication channels as per your business requirements.</p>
+                                <p>TechMet’s Smart IVRS is a hosted Interactive Voice Response System that is configured through a Virtual Number to automate business communication. 
+                                    All business calls that are hit to the <strong>Virtual Number</strong>, segregates and routes callers to specific departments with the help of DTMF inputs as selected appropriately to optimize communication efficiency. 
+                                    Multi-level IVR service with unlimited prompts, best to provide a personalized experience to the customers when they reach on the business number. 
+                                    <strong>TechMet</strong> is the <strong>Best IVRS Service Provider</strong> in India who facilitates the customizations and enables the unique features of communication channels as per your business requirements.
+                                </p>
                                 
                             </div>
                         </div>
