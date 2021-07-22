@@ -2,13 +2,6 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemPanel,
-    AccordionItemButton
-} from 'react-accessible-accordion';
  
 const BestSMSServiceInDelhi = () => {
     return (
@@ -45,7 +38,9 @@ const BestSMSServiceInDelhi = () => {
                                 <p><strong> Promotional Messages : Use for promotion acticity in India.</strong></p>
                                 <p><strong> Transactional SMS : Use for communication from company to consumer in India.</strong></p>
                                 <p><strong> International SMS : Communication via SMS globally.</strong></p>
-
+                                <br />
+                                <br />
+                                <br />
                                 <p>You can send simple broadcast</p>
                                 <p>System will send the SMS to all the numbers that you have uploaded.</p>
                                 <p>Promotions SMS is usually used for enquiry generation for product/services.</p>

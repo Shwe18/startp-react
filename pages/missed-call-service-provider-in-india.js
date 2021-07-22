@@ -1,21 +1,12 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import Welcome from "@/components/MissedCallService/Welcome";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemPanel,
-    AccordionItemButton
-} from 'react-accessible-accordion';
  
 const MissedCallServiceProviderInIndia = () => {
     return (
         <>
             <Navbar />
-            <Welcome />
 
             <PageBanner pageTitle="Missed Call Service Provider In India" />
 

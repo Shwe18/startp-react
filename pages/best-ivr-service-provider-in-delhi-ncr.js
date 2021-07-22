@@ -2,13 +2,7 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemPanel,
-    AccordionItemButton
-} from 'react-accessible-accordion';
+
  
 const BestIVRServiceProviderInDelhiNCR = () => {
     return (
@@ -31,10 +25,10 @@ const BestIVRServiceProviderInDelhiNCR = () => {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Manage your business communications with IVR Services</h3>
-                                <p>Techmet provides IVR Services – which is cost effective, reliable and backup auto-scaling mechanism. 
-                                    Company is renowed as best IVR Service Provider in industry. 
+                                <p><strong>Techmet</strong> provides <strong>IVR Services</strong> – which is cost effective, reliable and backup auto-scaling mechanism. 
+                                    Company is renowed as <strong>best IVR Service Provider in industry</strong>. 
                                     IVR is completely automation and incoming call centralisation on Single number for business communications. 
-                                    IVR Services are used for different purposes in each industry which may be : Sales, Support, Balanck Check , Product Service schedule, Booking Order, Check Order status,  Applications downloand and much more..
+                                    <strong> IVR Services</strong> are used for different purposes in each industry which may be : Sales, Support, Balanck Check , Product Service schedule, Booking Order, Check Order status,  Applications downloand and much more..
                                 </p>                        
                             </div>
                         </div>
@@ -47,14 +41,14 @@ const BestIVRServiceProviderInDelhiNCR = () => {
                             <div className="features-details-desc">
                                 <h4>How IVR Services are generally used in Industry:</h4>
                                 <p>
-                                    Anyone who calls on your Office Number (Virtual Number) will first hear a Company welcome message (Welcome to XYZ Company Limited, We offers the special products and services) and post welcome message ivr extension option will come :
+                                    Anyone who calls on your Office Number (Virtual Number) will first hear a Company welcome message <strong>(Welcome to XYZ Company Limited, We offers the special products and services)</strong> and post welcome message ivr extension option will come :
                                 </p>
-                                <ul className ="px-5 m-5 display-7">
+                                <ul className ="px-5 m-5 display-7"><strong>
                                     <li><h5>Press 1 for Sales Department</h5></li>
                                     <li><h5>Press 2 for HR Department</h5></li>
                                     <li><h5>Press 3 for Marketing Department</h5></li>
                                     <li><h5>Press 5 for Accounts Department</h5></li>
-                                    <li><h5>Press 9 for customer care</h5></li>
+                                    <li><h5>Press 9 for customer care</h5></li></strong>
                                 </ul>
                             </div>
                             
