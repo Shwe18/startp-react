@@ -17,12 +17,13 @@ const VoiceSms = () => {
             <Navbar />
             <MainBanner />
             <AboutUsContent />
-            <Partner />
+            
             <WhatWeOffer />
             <ServicesArea />
             <OurServices />
             <FunFactsArea />
             <VoiceSmsPricing />
+            <Partner />
             <Newsletter />
             <Footer />
         </>

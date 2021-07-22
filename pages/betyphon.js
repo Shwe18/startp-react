@@ -17,7 +17,6 @@ const BeTyphon = () => {
         <>
             <NavbarStyleThree />
             <MainBanner />
-            <Partner />
             <Welcome />
             <WhatWeOffer />
             <ServicesArea />
@@ -25,6 +24,7 @@ const BeTyphon = () => {
             <OurServices />
             <FunFactsArea />
             <BetyphonPricing /> 
+            <Partner />
             <Newsletter />
             <Footer />
         </>
