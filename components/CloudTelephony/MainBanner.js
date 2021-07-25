@@ -8,13 +8,7 @@ const MainBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="agency-banner-content">
-                            <span className="sub-title">We are creative</span>
-                            <h1>Digital Agency</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-                            <Link href="/contact">
-                                <a className="btn btn-secondary">Get Started</a>
-                            </Link>
+                        
                         </div>
                     </div>
 

@@ -123,6 +123,7 @@ const PricingStyleOne = () => {
                         </div>
                     </div>
                 </div>
+                <h6 className="text-right"><strong>Note:</strong> All charges of our services are exclusive of taxes, payable annually and include 24*7 customer support.</h6>
             </div>
 
             {/* Shape Images */}

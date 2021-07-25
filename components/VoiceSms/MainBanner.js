@@ -8,17 +8,7 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-content">
-                            <h1>Welcome To Techmet</h1>
-
-                            <Link href="/contact">
-                                <a className="btn btn-danger">LOGIN</a>
-                            </Link>
-
-                            <br />
-
-                            <Link href="/contact">
-                                <a className="btn btn-danger">FREE TRIAL</a>
-                            </Link>
+                           
                         </div>
                     </div>
 

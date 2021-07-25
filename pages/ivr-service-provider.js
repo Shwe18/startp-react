@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
-import MainBanner from '@/components/VirtualNumber/MainBanner';
+import MainBanner from '@/components/IVRServiceProvider/MainBanner';
 import DiscoverArea from '@/components/IVRServiceProvider/DiscoverArea';
 import Detail from '@/components/IVRServiceProvider/Detail';
 import Services from '@/components/VirtualNumber/Services';

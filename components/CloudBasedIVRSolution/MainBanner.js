@@ -7,7 +7,7 @@ const MainBanner = () => {
         <div className="bigdata-analytics-banner">
             <div className="container">
                 <div className="bigdata-analytics-content">
-                   
+                  
                 </div> 
             </div>
 

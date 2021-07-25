@@ -19,8 +19,8 @@ const Tollfree = () => {
             <Features />
             <ServicesArea />
             <FunFactsArea />
-            <TollfreePricing />
             <Partner />
+            <TollfreePricing />
             <CTA />
             <Footer />
         </>

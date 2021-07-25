@@ -21,8 +21,8 @@ const Features = () => {
 
                           
 							<ul>
-								Manage your customers or contacts in your panel address book.  <br />
-								Messages can be scheduled as per requirements
+								* Manage your customers or contacts in your panel address book.  <br />
+								* Messages can be scheduled as per requirements
 								<br />
 								<br />
 							
@@ -89,8 +89,8 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								Easy to use our control panel with friendly User Interface (UI)<br />
-								Our web based control panel is fully featured
+								* Easy to use our control panel with friendly User Interface (UI)<br />
+								* Our web based control panel is fully featured
 								<br />
 								<br />
                                 </ul>

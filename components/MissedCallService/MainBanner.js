@@ -6,12 +6,7 @@ const MainBanner = () => {
         <div className="iot-main-banner">
             <div className="container">
                 <div className="iot-banner-content">
-                    <h2>We get it! IoT growth is happening</h2>
-                    <p>At this point, it may seem like overkill to point out the continued growth bound to happen in the Internet of Things space for the years to come and how it will create new opportunities for companies, both established and new, from a hardware and software perspective.</p>
                     
-                    <Link href="/contact">
-                        <a className="btn btn-primary">Get Started</a>
-                    </Link>
                 </div>
 
                 <div className="iot-banner-image">

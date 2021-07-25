@@ -1,10 +1,47 @@
 import React from 'react';
+import Link from 'next/link';
 
  const Welcome = () => {
      return(
         <>
-            <div className="services-area bg-f7fafd">
-                <div className="container ptb-80">
+            <div className="services-area bg-f7fafd ptb-80">
+            <div className="row">      
+                        <div className="col-lg-6 text-center">   
+                     
+                            <h2 className ="py-1">Welcome To Techmet</h2>
+                        </div>
+                    <div className="col-6">
+                            <div className="row py-2 ">
+                                <div className="btn-group">
+                                   <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                            <a className="btn btn-primary">Pricing</a>
+                                       </Link>
+                                    </div>
+                                    <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                            <a className="btn btn-primary">FAQ</a>
+                                       </Link>
+                                    </div>
+                                    <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                            <a className="btn btn-primary">LOGIN</a>
+                                       </Link>
+                                    </div>
+                                    <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                            <a className="btn btn-danger">FreeTrial</a>
+                                       </Link>
+                                    </div>
+                                </div>                         
+                            </div>
+                        </div>
+                    </div>
+                <div className="container pb-80">
                     <h4 className= "text-center">Missed Call Number for your Business</h4>
                     <br />
                     <p>Your customer can placed a missed call to your given number at zero cost and receive a call back immediately. Missed Call Service is easiest way to give your customer updates, Lead Generation, Free Callback to caller, Customer Engagement, Customer Support, Customer Feedback, Application Download, Opinion Poll, OTP/Mobile Number Verification.</p>

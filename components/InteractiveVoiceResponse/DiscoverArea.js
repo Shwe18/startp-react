@@ -16,7 +16,7 @@ const DiscoverArea = () => {
                     <div className="col-6">
                       <div className="col-1 "></div>
                          <div className="row ">
-                             <div class="btn-group">
+                             <div className="btn-group">
                                    <div className="col-4"></div>
                                    <div className="col-2">
                                        <Link href="/contact">

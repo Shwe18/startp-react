@@ -20,8 +20,8 @@ const WhyWeAreBest = () => {
                             <h3>Professional Image</h3>
 
                             <ul>
-								Call disconnected after ring<br />
-								Thankyou SMS to caller<br />
+								* Call disconnected after ring<br />
+								* Thankyou SMS to caller<br />
 								<br />
 								
 							</ul>               
@@ -36,10 +36,10 @@ const WhyWeAreBest = () => {
                             </div>
                             <h3>Beneficial Usage</h3>
                             <ul>
-								OTP/ Mobile Verification<br />
-							    Application Download<br />
-								Opinion Poll<br />
-								Customer Engagaement<br />
+								* OTP/ Mobile Verification<br />
+							    * Application Download<br />
+								* Opinion Poll<br />
+								* Customer Engagaement<br />
 								
 							</ul>
                         </div>
@@ -52,8 +52,8 @@ const WhyWeAreBest = () => {
                             </div>
                             <h3>24/7 Multiple Connectivity</h3>
                             <ul>
-								Always Connected,<br />
-							    Multiple Call Connected on Single Number,<br />
+								* Always Connected,<br />
+							    * Multiple Call Connected on Single Number,<br />
 								
 							</ul>
                         </div>
@@ -66,9 +66,9 @@ const WhyWeAreBest = () => {
                             </div>
                             <h3>Simple Online Panel</h3>
                             <ul>
-								Easy Manageable<br />
-								Real-time analysis<br />
-								Call Logs<br />
+								* Easy Manageable<br />
+								* Real-time analysis<br />
+								* Call Logs<br />
 								<br />
 							</ul>
                         </div>

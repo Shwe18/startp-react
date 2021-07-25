@@ -41,7 +41,7 @@ import Link from 'next/link';
                             </div>
                         </div>
                     </div>
-                <div class="container pb- 80">
+                <div className="container pb- 80">
                     <h4 className="py-1">Create A Big Company Image with IVR Services</h4>
                     <br />
                     <h5>Grow your business with Cloud technology based IVR :</h5>
@@ -50,7 +50,7 @@ import Link from 'next/link';
                 </div>
             </div>
         </>
-     )
- }
+    )
+}
 
 export default Welcome;

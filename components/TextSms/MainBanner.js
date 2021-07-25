@@ -10,36 +10,6 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Welcome To Techmet</h1>
-									
-									
-									<div className="row">
-                                        <div className="col-2 px-5">
-                                            <Link href="/contact">
-                                                <a className="btn btn-primary">Pricing</a>
-                                            </Link>
-                                        </div>
-                                        <div className="col-1 px-5"></div>
-                                        <div className="col-2 px-5">
-                                            <Link href="/contact">
-                                                <a className="btn btn-primary">FAQ</a>
-                                            </Link>
-                                        </div>
-
-										<div className="row py-5">
-											<div className="col-2 px-5">
-												<Link href="/contact">
-													<a className="btn btn-primary">LOGIN</a>
-												</Link>
-											</div>
-											<div className="col-1 px-5"></div>
-											<div className="col-2 px-5">
-												<Link href="/contact">
-													<a className="btn btn-danger">FREE TRIAL</a>
-												</Link>
-											</div>
-										</div>
-                                    </div>
 								</div>
 							</div>
 
