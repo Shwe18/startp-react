@@ -63,7 +63,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/missedcallservice">
+                                    <Link href="/missed-call-service">
                                         <a>Missedcall Services</a>
                                     </Link>
                                 </li>

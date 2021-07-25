@@ -10,12 +10,7 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Built for Developers</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
 									
-                                    <Link href="/contact">
-									    <a className="btn btn-primary">Get Started</a>
-                                    </Link>
 								</div>
 							</div>
 

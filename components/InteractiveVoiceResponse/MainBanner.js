@@ -3,47 +3,35 @@ import Link from 'next/link';
 
 const MainBanner = () => {
     return (
-        <div className="repair-main-banner">
-            <div className="container">
+        <div className="agency-main-banner">
+            <div className="container-fluid">
                 <div className="row align-items-center">
-                    <div className="col-lg-6">
-                        <div className="repair-banner-content">
-                            <h1>Your Local Computer Repair Experts!</h1>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-
-                            <Link href="/contact">
-                                <a className="btn btn-primary">Get Started</a>
-                            </Link>
+                    <div className="col-lg-6 col-md-12">
+                        <div className="agency-banner-content">
+                            
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
-                        <div className="repair-banner-image">
-                            <img 
-                                src='/images/repair-banner-image/repair-banner-img.png' 
-                                alt="image" 
-                            />
- 
-                            <img 
-                                src='/images/repair-banner-image/repair-shape1.png' 
-                                className="animate__animated animate__zoomIn animate__delay-0.6s" 
-                                alt="image" 
-                            /> 
-                            
-                            <img 
-                                src='/images/repair-banner-image/repair-shape2.png' 
-                                className="animate__animated animate__fadeInLeft animate__delay-0.6s" 
-                                alt="image" 
-                            />
-                    
-                            <img 
-                                src='/images/repair-banner-image/repair-shape-circle.png' 
-                                className="rotateme" 
-                                alt="image" 
-                            />
+                    <div className="col-lg-6 col-md-12">
+                        <div className="agency-banner-image">
+                            <img src="/images/agency-image/agency-banner-img.jpg" alt="image" />
                         </div>
                     </div>
                 </div>
+            </div>
+
+            {/* Shape Images */}
+            <div className="shape2 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
+            <div className="shape8 rotateme">
+                <img src="/images/shape2.svg" alt="shape" />
+            </div>
+            <div className="shape3">
+                <img src="/images/shape3.svg" alt="shape" />
+            </div>
+            <div className="shape4">
+                <img src="/images/shape4.svg" alt="shape" />
             </div>
         </div>
     );

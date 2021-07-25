@@ -10,7 +10,7 @@ const Partner = () => {
                 </div>
             </div>
 
-            <div className="partner-area partner-section">
+            <div className="partner-area partner-section pb-80">
                 <div className="container">
 
                     <div className="partner-inner ptb-80">

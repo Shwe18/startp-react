@@ -26,10 +26,10 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								Leads All in One place<br />
-								Add or Remove leads easily<br />
-								Search leads by any column<br />
-								Manage leads distribution<br />
+								* Leads All in One place<br />
+								* Add or Remove leads easily<br />
+								* Search leads by any column<br />
+								* Manage leads distribution<br />
 								<br />
 								<br />
                                 <br />
@@ -50,11 +50,11 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								Real-time Reports<br />
-								Call history of dialouts<br />
-								Communication Reports<br />
-								Customized Report<br />
-								Call Recording <br />
+								* Real-time Reports<br />
+								* Call history of dialouts<br />
+								* Communication Reports<br />
+								* Customized Report<br />
+								* Call Recording <br />
 								<br />
                                 <br />
 
@@ -75,9 +75,9 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								<p> Auto Integration(Vendors, website,IVR)<br />  
-                                API capability to share or received data <br />
-                                Upload bulk data in excel sheet format</p>					
+								* Auto Integration(Vendors, website,IVR)<br />  
+                                * API capability to share or received data <br />
+                                * Upload bulk data in excel sheet format		
 							
 							</ul>
 
@@ -96,7 +96,7 @@ const WhatWeOffer = () => {
 							</h3>
 
 							<ul>
-								Pay only for what you use ``Increase or reduce user as you need``
+								* Pay only for what you use ``Increase or reduce user as you need``
 								<br />
 								<br />
 								<br />

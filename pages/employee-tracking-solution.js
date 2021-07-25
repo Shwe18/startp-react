@@ -20,9 +20,7 @@ const AudioConference = () => {
             <Welcome />
             <OurServices />
             <FunFactsArea />
-            <AudioConferencePricing />
-            <Features />
-            <FeedbackStyleFour />
+            <BetyphonPricing /> 
             <Partner />
             <Newsletter />
             <Footer />
@@ -30,4 +28,4 @@ const AudioConference = () => {
     )
 }
 
-export default AudioConference;
+export default EmployeeTrackingSolution;

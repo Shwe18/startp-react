@@ -241,7 +241,7 @@ const ServicesArea = () => {
                             <br />
                         </div>
                     </div>
-                <h4><strong>SO Simple to Start–</strong> Click on <strong>Signup</strong> , Put the details. Activate the link sent to you and Operate your Betyphon account Or you can <strong>Call us +91-9871045375</strong> to book an appointment to meet at your place.</h4>        
+                <h5><strong>SO Simple to Start–</strong> Click on <strong>Signup</strong> , Put the details. Activate the link sent to you and Operate your Betyphon account Or you can <strong>Call us +91-9871045375</strong> to book an appointment to meet at your place.</h5>        
 
                 </div>
             </div>

@@ -193,8 +193,8 @@ const ServicesArea = () => {
                                         <p>As the name suggests Verification SMS are sent out at the time when a customer is signing up to a company’s services or making an account with them or a current customer wants to revive some information. OTP stands for ‘One Time Password’. These messages are quick actions on the part of the company to help their customers with their information, verification and authentication purposes.</p>
                                 </div>
                             </div>
-                            <br >
-                            </br>
+                            <br />
+                            <hr />
                             <h2 className="text-center">How to send SMS</h2>
                             <p className="px-5">SMS Terminal – SMS can be sent through the admin panel provided by the Service Provider-TECHMET  (System will send the SMS to all the numbers that you have uploaded and you can send a simple broadcast)</p>
                             <p className="px-5">API – You can integrate through API provided sms can be sent.</p>

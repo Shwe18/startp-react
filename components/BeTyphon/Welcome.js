@@ -70,6 +70,12 @@ import Link from 'next/link'
                         <p>No matter which industry your company belongs to, your pain-areas following the old processes i.e. creating manual reports, no timely & systematic follow ups will cause leakage in business and costly business operations. These methods cause loss of correct information on conversions, loss of time and money</p>
                         <p>You spend money and resources on marketing efforts to generate leads, what happens to it? Well most marketing leads are never pursued. In fact, it’s estimated that 80% of leads generated through marketing get lost, discarded or ignored. That’s a lot of lost revenue.  Also most leads don’t convert on the first impression, which means they need to be nurtured over time. So Betyphon is solution for you</p>
                         </ul>
+
+                    <p>In today’s fast moving business times, the probability that you are not up-to-date with new technologies is shrinking the growth of your business. Every company, big or small, any industry, needs a constant flow of happy customers and clients. Organizations generate leads through various online & offline marketing initiatives with the aim of converting these leads into customers. Majority of the companies use hardcopy or excel sheets to maintain details of these leads. Any follow-ups done, conversions made or even discarded leads are still managed on paper or time consuming excel sheets.</p>
+                    <br />
+                    <p>No matter which industry your company belongs to, your pain-areas following the old processes i.e. creating manual reports, no timely & systematic follow ups will cause leakage in business and costly business operations. These methods cause loss of correct information on conversions, loss of time and money</p>
+                    <br />
+                    <p>You spend money and resources on marketing efforts to generate leads, what happens to it? Well most marketing leads are never pursued. In fact, it’s estimated that 80% of leads generated through marketing get lost, discarded or ignored. That’s a lot of lost revenue.  Also most leads don’t convert on the first impression, which means they need to be nurtured over time. So Betyphon is solution for you</p> 
                 </div>
             </div>
         </>

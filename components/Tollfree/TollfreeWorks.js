@@ -10,7 +10,7 @@ const TollfreeWorks = () => {
                 <h2>How to Tollfree Services Actually Works</h2>
                 <div className="bar"></div>
                 <p>
-                    Anyone who calls on your Tollfree Number (<strong>1800 XXX XXXX</strong>) will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong>) and post welcome message ivr extension option will come :
+                    Anyone who calls on your Tollfree Number <strong>(1800 XXX XXXX)</strong> will first hear a Company welcome message <strong>(Welcome to XYZ Company Limited, We offers the special products and services)</strong> and post welcome message ivr extension option will come :
                 </p>
                 
                 <ul>
