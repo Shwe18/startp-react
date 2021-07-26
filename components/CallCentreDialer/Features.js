@@ -11,7 +11,6 @@ const Features = () => {
                     <span className="sub-title">What We Offer</span>
                     <h2>Our Featured Solutions</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 <div className="row justify-content-center">
@@ -26,19 +25,12 @@ const Features = () => {
                                 </Link>
                             </h3>
                             <ul>
-                            <li> Professional Company welcome message, </li>
-								<li> Multi Level IVR</li>
-								<li> Call transfer as per language preference,</li>
-								<li>  Onhold Music, Voicemail, Sticky</li>
-                                <br />
-                                </ul>
-                               
-
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
+                                * Professional Company welcome message, <br />
+								* Multi Level IVR<br />
+								* Call transfer as per language preference,<br />
+								* Onhold Music, Voicemail, Sticky<br />
+                            </ul>
+                            
                         </div>
                     </div>
 
@@ -52,21 +44,17 @@ const Features = () => {
                                     <a>Effective Calls Management</a>
                                 </Link>
                             </h3>
+                            <br />
                             <ul>
-                            <li> Call Recording</li>
-							    <li> Call logs</li>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts, Caller Number blocking,</li>
-								<li> Real time analysis</li>
+                                * Call Recording<br />
+							    * Call logs<br />
+								* 2 way SMS Notification<br />
+								* Email alerts, Caller Number blocking,<br />
+								* Real time analysis<br />
 								<br />
                               
 							</ul>
                             
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
 
@@ -80,21 +68,17 @@ const Features = () => {
                                     <a>Tracking and Monitoring</a>
                                 </Link>
                             </h3>
+                            <br />
                             <ul>
-                                <li> Always Connected</li>
-								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
-								<li> Office timing Setup</li>
+                                * Always Connected<br />
+								* Intelligent Call Routing<br />
+								* Multiple Call Connected at same time<br />
+								* Office timing Setup<br />
 								<br />
 								<br />
 							
 							</ul>
                             
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                <Icon.PlusCircle /> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
 
@@ -108,9 +92,10 @@ const Features = () => {
                                     <a>Reports and Analysis</a>
                                 </Link>
                             </h3>
+                            <br />
                             <ul>
-						     	<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+						     	* Easy Manageable<br />
+								* Multi Agent login<br />
 								<br />
 								<br />
 								<br />
@@ -119,11 +104,6 @@ const Features = () => {
 								
 							</ul>
                             
-                            <Link href="#">
-                                <a className="learn-more-btn">
-                                    <i data-feather="plus-circle"></i> Learn More
-                                </a>
-                            </Link>
                         </div>
                     </div>
                 </div>

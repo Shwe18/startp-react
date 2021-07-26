@@ -15,7 +15,7 @@ import Link from 'next/link'
                     <div className="col-6">
                       <div className="col-1 "></div>
                          <div className="row py-2 ">
-                             <div class="btn-group">
+                             <div className="btn-group">
                                    
                                    <div className="col-2">
                                        <Link href="/contact">

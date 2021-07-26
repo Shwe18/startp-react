@@ -16,14 +16,16 @@ const Cta = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-2">
                         <div className="cta-iot-content">
-                            <p>You can pay us online,</p>
-
-                            <Link href="/contact">
-                                <a className="btn btn-primary">CLICK HERE</a>
-                            </Link>
+                            <p>You can pay us online</p>                            
                         </div>
+                    </div>
+
+                    <div className="col-lg-4">
+                        <Link href="/contact">
+                            <a className="btn btn-primary">CLICK HERE</a>
+                        </Link>
                     </div>
                 </div>
             </div>

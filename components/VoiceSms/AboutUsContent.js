@@ -13,6 +13,7 @@ const AboutUsContent = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
+                        
                         <div className="ml-about-content">
                             <span className="sub-title">About Us</span>
                             <h2>Reach your customer thru Voice SMS</h2>
