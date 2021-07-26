@@ -17,7 +17,7 @@ const OurServices = () => {
                                 <i className="flaticon-software"></i>
                             </div>
 
-                            <h3>Lead Generation</h3>
+                            <h3>Welcome Message</h3>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ const OurServices = () => {
                                 <i className="flaticon-gear"></i>
                             </div>
 
-                            <h3>Free callback for Caller</h3>
+                            <h3>Attendance Reports</h3>
                         
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const OurServices = () => {
                                 <i className="flaticon-skyline"></i>
                             </div>
 
-                            <h3>Customer Support/Update</h3>
+                            <h3>Recording & Playback</h3>
                             
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const OurServices = () => {
                                 <i className="flaticon-car-insurance"></i>
                             </div>
 
-                            <h3>Application Download </h3>
+                            <h3>Demand PIN</h3>
                             
                         </div>
                     </div>
@@ -59,8 +59,18 @@ const OurServices = () => {
                             <div className="icon">
                                 <i className="flaticon-factory"></i>
                             </div>
+                            <h3>Entry & Exit Tones</h3>
+                            <br />
+                        </div>
+                    </div>
 
-                            <h3>Opinion Poll</h3>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="single-repair-services bg6">
+                            <div className="icon">
+                                <i className="flaticon-chip"></i>
+                            </div>
+
+                            <h3>Name Record & Playback</h3>
                             
                         </div>
                     </div>
@@ -70,7 +80,9 @@ const OurServices = () => {
                             <div className="icon">
                                 <i className="flaticon-chip"></i>
                             </div>
-                            <h3>Customer Engagement</h3>                            
+                            <br />
+                            <h3>Operator Dial-In/Out</h3>
+                            <br />
                         </div>
                     </div>
 
@@ -79,16 +91,9 @@ const OurServices = () => {
                             <div className="icon">
                                 <i className="flaticon-chip"></i>
                             </div>
-                            <h3>OPT/Mobile Verification</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-6">
-                        <div className="single-repair-services bg6">
-                            <div className="icon">
-                                <i className="flaticon-chip"></i>
-                            </div>
-                            <h3>Plug into your system</h3>
+                            <br />
+                            <h3>Leader Hangup</h3>
+                            <br />
                         </div>
                     </div>
                 </div>

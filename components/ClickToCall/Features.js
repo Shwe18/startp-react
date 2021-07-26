@@ -22,8 +22,8 @@ const Features = () => {
 							<ul>
 
 							
-								An ideal facility from the organisation to facilitate customers to get in touch easily <br />
-								Customisable call process<br />
+								* An ideal facility from the organisation to facilitate customers to get in touch easily <br />
+								* Customisable call process<br />
 							    <br />
 							    
 							</ul>
@@ -43,9 +43,9 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								Integrate with Website, Application Or CRM<br />
-								Calls logs & Call recording to be used for in-depth analysis<br />
-								Real time analysis<br />
+								* Integrate with Website, Application Or CRM<br />
+								* Calls logs & Call recording to be used for in-depth analysis<br />
+								* Real time analysis<br />
 								
 							</ul>
 						</div>
@@ -64,9 +64,9 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								Intelligent call routing<br />
-								Multiple calls connectivity in backend<br />
-								Office timing Setup<br />
+								* Intelligent call routing<br />
+								* Multiple calls connectivity in backend<br />
+								* Office timing Setup<br />
 								<br />
 								<br />
 							</ul>
@@ -86,9 +86,9 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								Easy Manageable<br />
-								Multiple agent log in<br />
-								Easily installed<br />
+								* Easy Manageable<br />
+								* Multiple agent log in<br />
+								* Easily installed<br />
 								<br />
 								<br />
 								<br />

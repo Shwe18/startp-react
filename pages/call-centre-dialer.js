@@ -1,14 +1,12 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/ETS/MainBanner';
+import Welcome from '@/components/CallCentreDialer/Welcome';
+import ServicesArea from '@/components/CallCentreDialer/ServicesArea';
 import Partner from '@/components/ETS/Partner';
 import Features from '@/components/CallCentreDialer/Features';
-import AboutUsContent from '@/components/ETS/AboutUsContent';
-import OurServices from '@/components/ETS/OurServices';
-import FunFactsArea from '@/components/Common/FunFactsArea';
-import ETSPricing from '@/components/ETS/ETSPricing';
-import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
-import Newsletter from '@/components/Common/Newsletter';
+import FunFactsArea from '@/components/Common/FunFactsArea'; 0
+import CTAStyleTwo from '@/components/CallCentreDialer/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 const CallCentreDialer = () => {
@@ -16,15 +14,12 @@ const CallCentreDialer = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Partner />
+            <Welcome />
             <Features />
-            <AboutUsContent />
-            <OurServices />
-            <FunFactsArea />
-            <ETSPricing />
-          
-            <FeedbackStyleFour />
-            <Newsletter />
+            <ServicesArea />            
+            <FunFactsArea />     
+            <Partner />
+            <CTAStyleTwo />
             <Footer />
         </>
     )

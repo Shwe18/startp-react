@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/VoiceSms/MainBanner';
+import Welcome from '@/components/VoiceSms/Welcome';
 import Partner from '@/components/ETS/Partner';
 import WhatWeOffer from '@/components/VoiceSms/WhatWeOffer';
 import AboutUsContent from '@/components/VoiceSms/AboutUsContent';
@@ -16,8 +17,8 @@ const VoiceSms = () => {
         <>
             <Navbar />
             <MainBanner />
+            <Welcome />
             <AboutUsContent />
-            
             <WhatWeOffer />
             <ServicesArea />
             <OurServices />

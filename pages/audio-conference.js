@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/ETS/MainBanner';
+import MainBanner from '@/components/AudioConference/MainBanner';
+import Welcome from '@/components/AudioConference/Welcome';
 import Partner from '@/components/ETS/Partner';
+import OurServices from '@/components/AudioConference/OurServices';
 import Features from '@/components/AudioConference/Features';
-import AboutUsContent from '@/components/ETS/AboutUsContent';
-import OurServices from '@/components/ETS/OurServices';
+import AudioConferenceWorks from '@/components/AudioConference/AudioConferenceWorks';
 import FunFactsArea from '@/components/Common/FunFactsArea';
 import AudioConferencePricing from '@/components/AudioConference/AudioConferencePricing';
-//import Features from '@/components/ETS/Features';
-import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
-import Newsletter from '@/components/Common/Newsletter';
+import Newsletter from '@/components/AudioConference/Newsletter';
 import Footer from "@/components/_App/Footer";
 
 const AudioConference = () => {
@@ -17,14 +16,13 @@ const AudioConference = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Partner />
-         
-            <AboutUsContent />
+            <Welcome />
             <OurServices />
+            <Features />
+            <AudioConferenceWorks />
             <FunFactsArea />
             <AudioConferencePricing />
-            <Features />
-            <FeedbackStyleFour />
+            <Partner />
             <Newsletter />
             <Footer />
         </>
